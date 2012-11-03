@@ -1,0 +1,46 @@
+\documentclass[12pt,twoside]{report}
+\usepackage{amssymb,amsmath,alltt}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{setspace}
+\usepackage{epsfig}
+%este es el archivo de configuracion
+\input{input}
+
+% Se puede cambiar los siguientes parámetros para modificar el acomodo del texto
+\geometry{lmargin=2.5cm,rmargin=2.5cm,tmargin=3cm,bmargin=3cm}
+\parskip= 6pt
+%definicion de los archivos
+\includeonly{introduccion,problema,objetivos,planeacion,analisis,basedatos,analisisobjetos,diseno,disenoobjetos,salidas,interfaces,conclusion,anexos}
+
+\begin{document}
+\input{title}
+\newpage
+\pagenumbering{roman}
+\include{introduccion}
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+%\newpage
+%\listoftables
+\newpage
+\pagestyle{fancy}
+\pagenumbering{arabic} \setcounter{page}{1}
+\include{problema}
+\newpage
+\pagestyle{fancy}
+\include{objetivos}
+\newpage
+\pagestyle{fancy}
+\include{planeacion}
+\newpage
+\pagestyle{fancy}
+\include{analisis}
+%\newpage
+%Otros apendices
+%\bibliographystyle{abbrv}
+%\bibliography{myblib}
+%\clearemptydoublepage
+\end{document}

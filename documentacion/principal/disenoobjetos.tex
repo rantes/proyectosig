@@ -1,0 +1,41 @@
+\chapter{Dise\~no de entradas}
+\section{M\'etodos implementados para la captura de datos}
+Las entradas de datos en el sistema, se van a manejar de dos maneras: formularios en pantalla y archivos planos.%
+\section{Descripci\'on de las entradas}
+Los formularios en pantalla, ser\'an formularios con campos de ingreso con formato acorde al tipo de datos que se requieran, seg\'un modelo de datos.%
+\\%
+Los archivos planos ser\'an en formato CSV sin encabezados y cada uno con un n\'umero de columnas de acuerdo al n\'umero de campos requeridos a procesar.%
+%
+\section{Prototipos}
+%
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.60\textwidth]{images/cuotaslotes.png}
+	\caption{Formato de carga de cuotas por lotes}
+	\label{fig:cuotaslotes}
+\end{figure}%
+%
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.60\textwidth]{images/pagoslotes.png}
+	\caption{Formato de carga de pagos por lotes}
+	\label{fig:pagoslotes}
+\end{figure}%
+%
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.60\textwidth]{images/tarjetaslotes.png}
+	\caption{Formato de carga de tarjetas d\'ebito por lotes}
+	\label{fig:tarjetaslotes}
+\end{figure}%
+%
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.60\textwidth]{images/participanteslotes.png}
+	\caption{Formato de carga de participantes por lotes}
+	\label{fig:participanteslotes}
+\end{figure}%
+%
+\newpage%
+\section{Validaciones y controles}
+Se controlar\'a en los formularios, que los campos obligatorios se incluyan debidamente y en los archivos planos, se validar\'a que cada archivo tenga el n\'umero de campos correspondiente y que cada valor de celda, contenga el tipo de dato apropiado.%
