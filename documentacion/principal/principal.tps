@@ -10,15 +10,15 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1008
-NormalPos.bottom=447
+NormalPos.top=32
+NormalPos.right=1242
+NormalPos.bottom=382
 Class=LaTeXView
-Document=principal.tex
+Document=title.tex
 
 [Frame0_View0,0]
 TopLine=0
-Cursor=641
+Cursor=427
 
 [Frame1]
 Flags=0
@@ -28,17 +28,35 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1008
-NormalPos.bottom=447
+NormalPos.top=32
+NormalPos.right=1242
+NormalPos.bottom=382
+Class=LaTeXView
+Document=principal.tex
+
+[Frame1_View0,0]
+TopLine=19
+Cursor=843
+
+[Frame2]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=32
+NormalPos.right=1242
+NormalPos.bottom=382
 Class=LaTeXView
 Document=input.tex
 
-[Frame1_View0,0]
-TopLine=18
+[Frame2_View0,0]
+TopLine=13
 Cursor=614
 
 [SessionInfo]
-FrameCount=2
+FrameCount=3
 ActiveFrame=0
 

@@ -1,18 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.4)  4 NOV 2012 01:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  4 NOV 2012 23:21
 entering extended mode
 **principal.tex
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\principal.tex"
+
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
+tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
-, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
-ian, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
- kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
--x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
-ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
-elsh, loaded.
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\base\report.cls"
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -28,10 +33,10 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2009/06/22 v3.00
 
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup4
@@ -39,24 +44,24 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen103
 ))
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -97,34 +102,34 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\base\alltt.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\base\alltt.sty"
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Archivos de programa\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
@@ -132,27 +137,27 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
 
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\base\latin1.def"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-("C:\Archivos de programa\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\generic\babel\spanish.ldf"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\babel\spanish.ldf"
 Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
 
-("C:\Archivos de programa\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count101
 \U@D=\dimen114
@@ -165,16 +170,16 @@ Package babel Info: Making . an active character on input line 585.
 Package babel Info: Making < an active character on input line 630.
 Package babel Info: Making > an active character on input line 630.
 ))
-("C:\Documents and Settings\Administrador\Datos de programa\MiKTeX\2.9\tex\latex\setspace\setspace.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen115
 \epsfysize=\dimen116
 )
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\input.tex"
-("C:\Documents and Settings\Administrador\Datos de programa\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty"
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\input.tex
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
 \f@ncyO@erh=\skip48
@@ -185,18 +190,18 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Archivos de programa\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Archivos de programa\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count104
@@ -212,11 +217,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen124
 \Gm@dimlist=\toks24
 
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Documents and Settings\Administrador\Datos de programa\MiKTeX\2.9\tex\latex\caption\caption.sty"
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
-("C:\Documents and Settings\Administrador\Datos de programa\MiKTeX\2.9\tex\latex\caption\caption3.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 \captionmargin=\dimen125
 \captionmargin@=\dimen126
@@ -227,7 +232,7 @@ Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 )
 \c@ContinuedFloat=\count107
 )
-("C:\Documents and Settings\Administrador\Datos de programa\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip55
@@ -239,15 +244,21 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen134
 \titlewidthfirst=\dimen135
 )
-("C:\Documents and Settings\Administrador\Datos de programa\MiKTeX\2.9\tex\latex\titlesec\block.tss"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\block.tss"
 File: block.tss 2011/12/15
 ))
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\principal.aux"
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\introduccion.aux")
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\problema.aux")
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\objetivos.aux")
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\planeacion.aux")
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\analisis.aux"))
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
+aux
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\introducci
+on.aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\problema.a
+ux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\objetivos.
+aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\planeacion
+.aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\analisis.a
+ux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
@@ -261,20 +272,6 @@ LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 
-("C:\Documents and Settings\Administrador\Datos de programa\MiKTeX\2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen136
-\scratchbox=\box29
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen137
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks27
-)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -311,10 +308,21 @@ LaTeX Font Info:    ... okay on input line 17.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\title.tex" [1
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\title.tex
+[1
 
-{C:/Documents and Settings/Administrador/Configuración local/Datos de programa/MiKTeX/2.9/pdftex/config/pdftex.map}])
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\introduccion.tex")
+{C:/Users/WillY/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\introducci
+on.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+ ("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+))
 Underfull \hbox (badness 10000) in paragraph at lines 2--21
 
  []
@@ -347,18 +355,10 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [1
 
 
- <C:/Documents and Settings/Administrador/Mis documentos/GitHub/proyectosig/documentacion/principal/images/header.png>] 
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\principal.toc"
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
-
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
-
-("C:\Archivos de programa\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
+ <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images/he
+ader.png>]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
+toc
 File: images/header.png Graphic file (type png)
  <use images/header.png>
 Package pdftex.def Info: images/header.png used on input line 27.
@@ -382,11 +382,12 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[3] ("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\principal.lof")
+[3]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
+lof)
 \tf@lof=\write4
 File: images/header.png Graphic file (type png)
-
-<use images/header.png>
+ <use images/header.png>
 Package pdftex.def Info: images/header.png used on input line 28.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
@@ -396,7 +397,9 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 
 [4
 
-] ("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\problema.tex"
+]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\problema.t
+ex
  1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--14
@@ -445,7 +448,9 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[2] ("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\objetivos.tex"
+[2]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\objetivos.
+tex
  2.
 )
 File: images/header.png Graphic file (type png)
@@ -461,7 +466,9 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 
 
 
-] ("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\planeacion.tex"
+]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\planeacion
+.tex
  3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -645,7 +652,9 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[20]) ("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\analisis.tex"
+[20])
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\analisis.t
+ex
  4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
@@ -734,27 +743,36 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[27] ("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\principal.aux"
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\introduccion.aux")
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\problema.aux")
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\objetivos.aux")
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\planeacion.aux")
-("C:\Documents and Settings\Administrador\Mis documentos\GitHub\proyectosig\documentacion\principal\analisis.aux")) ) 
+[27]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
+aux
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\introducci
+on.aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\problema.a
+ux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\objetivos.
+aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\planeacion
+.aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\analisis.a
+ux)) ) 
 Here is how much of TeX's memory you used:
- 4703 strings out of 493921
- 70591 string characters out of 3144394
- 139405 words of memory out of 3000000
- 7894 multiletter control sequences out of 15000+200000
+ 4408 strings out of 494045
+ 64962 string characters out of 3143954
+ 135417 words of memory out of 3000000
+ 7601 multiletter control sequences out of 15000+200000
  11011 words of font info for 41 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
+ 715 hyphenation exceptions out of 8191
  38i,14n,43p,805b,588s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:
-/Archivos de programa/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Archivos de programa/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmcsc10.pfb><C:/Archivos de programa/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Archi
-vos de programa/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on principal.pdf (32 pages, 107328 bytes).
+<C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfonts/cm
+/cmcsc10.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/am
+sfonts/cm/cmr17.pfb>
+Output written on principal.pdf (32 pages, 115903 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
