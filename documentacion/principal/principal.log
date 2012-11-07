@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  7 NOV 2012 10:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  7 NOV 2012 11:22
 entering extended mode
 **principal.tex
 
@@ -466,66 +466,6 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\planeacion
 .tex
  3.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.13 ...estras plantas por medio de la utilizaci√≥
-                                                  n de nuestras tecnolog√≠a ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\maththreesuperior ->{^3}
-                         
-l.13 ...estras plantas por medio de la utilizaci√≥
-                                                  n de nuestras tecnolog√≠a ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 13.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.13 ...o de la utilizaci√≥n de nuestras tecnolog√
-                                                  ≠a afianzaremos nuestro pr...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.13 ...o de la utilizaci√≥n de nuestras tecnolog√
-                                                  ≠a afianzaremos nuestro pr...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-<argument> ...cefactor \spacefactor }\spacefactor 
-                                                  \accent@spacefactor 
-l.13 ...o de la utilizaci√≥n de nuestras tecnolog√
-                                                  ≠a afianzaremos nuestro pr...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.15 \subsection{Visi\'on}
-                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no Á in font cmex10!
-Missing character: There is no Á in font cmex10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
@@ -539,13 +479,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
- []
-
-
-Overfull \hbox (401.98674pt too wide) in paragraph at lines 4--15
-\OT1/cmr/m/n/12 tas por me-dio de la uti-li-za-ci[]A$[]\OML/cmm/m/it/12 ndenues
-trastecnolog[]\OT1/cmr/m/n/12 -\OML/cmm/m/it/12 aafianzaremosnuestroproductoene
-lmercadonacionalygeneraremoscadavesmasempleosalexpandirnuestraindustria:$ 
  []
 
 
@@ -554,7 +487,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--20
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
+Underfull \hbox (badness 10000) in paragraph at lines 21--26
 
  []
 
@@ -564,7 +497,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: images/header.png Graphic file (type png)
 
 <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 27.
+Package pdftex.def Info: images/header.png used on input line 26.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -578,7 +511,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 ]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 39.
+Package pdftex.def Info: images/header.png used on input line 38.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -588,7 +521,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [5]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 54.
+Package pdftex.def Info: images/header.png used on input line 53.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -598,7 +531,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [6]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 58.
+Package pdftex.def Info: images/header.png used on input line 57.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -608,7 +541,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [7]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 61.
+Package pdftex.def Info: images/header.png used on input line 60.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -618,7 +551,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [8]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 66.
+Package pdftex.def Info: images/header.png used on input line 65.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -628,7 +561,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [9]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 68.
+Package pdftex.def Info: images/header.png used on input line 67.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -638,7 +571,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [10]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 70.
+Package pdftex.def Info: images/header.png used on input line 69.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -648,7 +581,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [11]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 72.
+Package pdftex.def Info: images/header.png used on input line 71.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -658,7 +591,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [12]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 76.
+Package pdftex.def Info: images/header.png used on input line 75.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -668,7 +601,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [13]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 79.
+Package pdftex.def Info: images/header.png used on input line 78.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -678,7 +611,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [14]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 84.
+Package pdftex.def Info: images/header.png used on input line 83.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -688,7 +621,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [15]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 86.
+Package pdftex.def Info: images/header.png used on input line 85.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -698,7 +631,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [16]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 88.
+Package pdftex.def Info: images/header.png used on input line 87.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -708,7 +641,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [17]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 90.
+Package pdftex.def Info: images/header.png used on input line 89.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -857,30 +790,24 @@ aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\planeacion
 .aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\analisis.a
-ux)) )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 13 ({)
-### bottom level 
+ux)) ) 
 Here is how much of TeX's memory you used:
- 4410 strings out of 494045
- 64986 string characters out of 3143954
+ 4406 strings out of 494045
+ 64925 string characters out of 3143954
  135417 words of memory out of 3000000
- 7602 multiletter control sequences out of 15000+200000
+ 7598 multiletter control sequences out of 15000+200000
  11358 words of font info for 42 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 38i,14n,43p,763b,588s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/a
-msfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1
-/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/ty
-pe1/public/amsfonts/cm/cmti12.pfb>
-Output written on principal.pdf (31 pages, 136831 bytes).
+ 38i,14n,43p,763b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfonts/cm
+/cmcsc10.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/ams
+fonts/cm/cmti12.pfb>
+Output written on principal.pdf (31 pages, 115774 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
