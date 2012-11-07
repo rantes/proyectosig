@@ -25,29 +25,19 @@
 \listoffigures
 %\newpage
 %\listoftables
-%newpage es para indicar que corta la pagina y se va a insertar una nueva
 \newpage
-%pagestyle sirve para indicar el estilo a usar en la pagina, segun se definio antes
-%siempre hay que poner este comando despues de newpage
 \pagestyle{fancy}
-%el comando setcounter es para setear la numeracion de la pagina {page} que inicie desde 1 a partir de aca
-%porque antes estaba la tabla de contenidos
 \pagenumbering{arabic} \setcounter{page}{1}
-\include{analisis}
-%------------inicia nueva pagina
-\newpage
-\pagestyle{fancy}
 \include{problema}
-%-----------hasta aca es el bloque para insertar archivos (paginas)
-%------------inicia nueva pagina
 \newpage
 \pagestyle{fancy}
 \include{objetivos}
-%-----------hasta aca es el bloque para insertar archivos (paginas)
 \newpage
 \pagestyle{fancy}
 \include{planeacion}
-
+\newpage
+\pagestyle{fancy}
+\include{analisis}
 %\newpage
 %Otros apendices
 %\bibliographystyle{abbrv}
