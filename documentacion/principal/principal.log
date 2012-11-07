@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  7 NOV 2012 18:02
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  7 NOV 2012 18:29
 entering extended mode
 **principal.tex
 
@@ -258,7 +258,11 @@ ux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\objetivos.
 aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\planeacion
-.aux))
+.aux
+
+LaTeX Warning: Label `fig:Ventana administrador' multiply defined.
+
+))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
@@ -853,9 +857,76 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [16 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images
 /REPORTEDEINSUMO.jpg> <C:/Users/WillY/Documents/GitHub/proyectosig/documentacio
 n/principal/images/REPORTEDEVENTASGENERAL.jpg>]
+<images/Iniciosecion.jpg, id=84, 294.50024pt x 143.93774pt>
+File: images/Iniciosecion.jpg Graphic file (type jpg)
+
+<use images/Iniciosecion.jpg>
+Package pdftex.def Info: images/Iniciosecion.jpg used on input line 107.
+(pdftex.def)             Requested size: 283.22162pt x 138.4378pt.
+
+<images/Administrador.jpg, id=85, 238.491pt x 116.8365pt>
+File: images/Administrador.jpg Graphic file (type jpg)
+
+<use images/Administrador.jpg>
+Package pdftex.def Info: images/Administrador.jpg used on input line 127.
+(pdftex.def)             Requested size: 283.22162pt x 138.76082pt.
+
+<images/Segundoadministrador.jpg, id=86, 238.491pt x 118.041pt>
+File: images/Segundoadministrador.jpg Graphic file (type jpg)
+
+<use images/Segundoadministrador.jpg>
+Package pdftex.def Info: images/Segundoadministrador.jpg used on input line 144
+.
+(pdftex.def)             Requested size: 283.22162pt x 140.19133pt.
+
+<images/Facturas.jpg, id=87, 385.44pt x 180.07275pt>
+File: images/Facturas.jpg Graphic file (type jpg)
+ <use images/Facturas.jpg>
+Package pdftex.def Info: images/Facturas.jpg used on input line 161.
+(pdftex.def)             Requested size: 283.22162pt x 132.31754pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--173
+
+ []
+
 File: images/header.png Graphic file (type png)
- <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 100.
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 173.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -863,30 +934,34 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  []
 
 [17 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images
-/REPORTEDEVENTASDELASUCURSAL.jpg>]
+/REPORTEDEVENTASDELASUCURSAL.jpg> <C:/Users/WillY/Documents/GitHub/proyectosig/
+documentacion/principal/images/Iniciosecion.jpg>]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 103.
+Package pdftex.def Info: images/header.png used on input line 173.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[18]
+[18 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images
+/Administrador.jpg> <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/
+principal/images/Segundoadministrador.jpg>]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 108.
+Package pdftex.def Info: images/header.png used on input line 176.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[19]
+[19 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images
+/Facturas.jpg>]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 110.
+Package pdftex.def Info: images/header.png used on input line 181.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -896,7 +971,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [20]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 112.
+Package pdftex.def Info: images/header.png used on input line 183.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -906,7 +981,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [21]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 114.
+Package pdftex.def Info: images/header.png used on input line 185.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -916,7 +991,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [22]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 118.
+Package pdftex.def Info: images/header.png used on input line 187.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -926,7 +1001,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [23]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 121.
+Package pdftex.def Info: images/header.png used on input line 191.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -936,7 +1011,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [24]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 126.
+Package pdftex.def Info: images/header.png used on input line 194.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -946,7 +1021,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [25]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 128.
+Package pdftex.def Info: images/header.png used on input line 199.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -956,7 +1031,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [26]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 130.
+Package pdftex.def Info: images/header.png used on input line 201.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
@@ -966,14 +1041,24 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 [27]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 132.
+Package pdftex.def Info: images/header.png used on input line 203.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[28])
+[28]
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 205.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[29])
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
 aux
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\introducci
@@ -987,14 +1072,14 @@ aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\planeacion
 .aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4460 strings out of 494045
- 66564 string characters out of 3143954
- 134471 words of memory out of 3000000
- 7642 multiletter control sequences out of 15000+200000
+ 4483 strings out of 494045
+ 67167 string characters out of 3143954
+ 134576 words of memory out of 3000000
+ 7661 multiletter control sequences out of 15000+200000
  11966 words of font info for 44 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  38i,13n,43p,763b,572s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1006,9 +1091,9 @@ cmcsc10.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfonts
 ts/cm/cmr12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsf
 onts/cm/cmr17.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/am
 sfonts/cm/cmti12.pfb>
-Output written on principal.pdf (33 pages, 732564 bytes).
+Output written on principal.pdf (34 pages, 833198 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

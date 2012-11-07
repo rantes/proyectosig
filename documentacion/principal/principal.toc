@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Degustaciones:}{15}
 \contentsline {subsection}{\numberline {4.2.3}Bonos y Rifas:}{15}
 \contentsline {section}{\numberline {4.3}Reportes}{16}
-\contentsline {section}{\numberline {4.4}Diagrama de GANTT}{17}
-\contentsline {section}{\numberline {4.5}Recursos}{19}
-\contentsline {section}{\numberline {4.6}Presupuesto}{23}
-\contentsline {section}{\numberline {4.7}Cronograma}{25}
+\contentsline {section}{\numberline {4.4}Dise\~no de interface}{17}
+\contentsline {section}{\numberline {4.5}Recursos}{20}
+\contentsline {section}{\numberline {4.6}Presupuesto}{24}
+\contentsline {section}{\numberline {4.7}Cronograma}{26}
