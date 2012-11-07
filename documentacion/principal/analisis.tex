@@ -70,8 +70,21 @@ El sistema que es implementado de forma sencilla no tan complejo ya que son poco
 \subsection{Inventarios:} En este proceso se gestionara dos tipos de inventarios:
 	\begin{itemize}
 		\item \textbf{Inventario de insumo:} en este inventario se manejan todos los productos necesarios para la producci\'on teniendo en cuenta cuando se va a gastar  para hacer dicha producci\'on y as\'i tener el control necesario de estos. En este proceso es fundamental implementar este sistema ya que es la parte inicial de la producci\'on y as\'i evitar riegos dentro de los procesos de producci\'on.
-		\\%
-		\\%
+	%
+\begin{figure}[htbp]
+%centering es para centrar la imagen
+	\centering
+%aca es donde se incluye la imagen, se da el ancho(width), \textwidth significa que con repescto al tamano del
+%texto y luego la ruta, relativa siempre es decir, a partir de donde se esta, como images esta ahi
+%dentro, solo se usa desde images y ojala nada de espacios en el nombre de la imagen
+		\includegraphics[width=0.60\textwidth]{images/inventarioinsumo.jpg}
+%el caption es para el texto que aparece debajo de la imagen
+	\caption{Inventario de insumo}
+%label es para darle una referencia, por ejemplo si uno dice "como se puede ver en la imagen a1"
+	\label{fig:Inventario de insumo}
+\end{figure}%
+%	
+	
 			Otro prop\'osito fundamental al generar este sistema dentro de los procesos que se encuentran en el inventario de insumos es automatizarlo para que facilite su utilizaci\'on, creaci\'on de reportes para saber si esta siendo efectiva la producci\'on y rentable dependiendo de la sucursal ya que en cada sucursal va tener una tasa de producci\'on diferente, Lo cual es fundamental para la toma de decisiones ya que si en una sucursal tiene una taza de producci\'on mas grande de la que se esta ingresando ya que puede afectar en este. 
 		\\%
 		\\%
@@ -79,10 +92,38 @@ El sistema que es implementado de forma sencilla no tan complejo ya que son poco
 		\\%
 		\\%
 		\textbf{Ejemplo grafico inventario de insumos por d\'ia de varias sucursales de la misma organizaci\'on.}
+			%
+\begin{figure}[htbp]
+%centering es para centrar la imagen
+	\centering
+%aca es donde se incluye la imagen, se da el ancho(width), \textwidth significa que con repescto al tamano del
+%texto y luego la ruta, relativa siempre es decir, a partir de donde se esta, como images esta ahi
+%dentro, solo se usa desde images y ojala nada de espacios en el nombre de la imagen
+		\includegraphics[width=0.60\textwidth]{images/Graficoinventarioinsumo.jpg}
+%el caption es para el texto que aparece debajo de la imagen
+	\caption{Grafico de inventario de insumos}
+%label es para darle una referencia, por ejemplo si uno dice "como se puede ver en la imagen a1"
+	\label{fig:Grafico de inventario de insumos}
+\end{figure}%
+%	
 		\item \textbf{Inventario de producci\'on:} en  este inventario se manejan los productos ya producidos debidamente controlados por el sistema, como por ejemplo la cantidad de panes producidos de un tipo. La automatizaci\'on de este proceso ayuda a saber la cantidad que se esta produciendo, cantidad que se esta vendiendo, y cantidad que se esta perdiendo.
 		\\%
 		\\%
 				\textbf{El siguiente grafico muestra en una sucursal la cantidad producida de un producto, cantidad vendida, y cantidad no vendida.}
+					%
+\begin{figure}[htbp]
+%centering es para centrar la imagen
+	\centering
+%aca es donde se incluye la imagen, se da el ancho(width), \textwidth significa que con repescto al tamano del
+%texto y luego la ruta, relativa siempre es decir, a partir de donde se esta, como images esta ahi
+%dentro, solo se usa desde images y ojala nada de espacios en el nombre de la imagen
+		\includegraphics[width=0.60\textwidth]{images/Producidavendidaperdida.jpg}
+%el caption es para el texto que aparece debajo de la imagen
+	\caption{Grafico de produccion ventas y perdidas}
+%label es para darle una referencia, por ejemplo si uno dice "como se puede ver en la imagen a1"
+	\label{fig:Grafico de produccion ventas y perdidas}
+\end{figure}%
+%	
 	\end{itemize}
 	\subsection{Producci\'on:}En este proceso se ejecuta al tener todos los inventarios insumos, y así empezar a producci\'on y toda la informaci\'on referente a la producci\'on es guardada en el inventario de producci\'on, en este proceso solo se encargara de convertir la materia prima en el producto.	
 \\%
@@ -95,7 +136,7 @@ Al implementarse este sistema en este proceso tendr\'a varios controles, tales c
 Adicional a todos estos procesos tambi\'en se tiene un proceso el cual maneja todos los gasto fijos que va teniendo la organizaci\'on tales como impuestos, servicios, todo estos se manejara tambi\'en en un \'unico reporte el cual contiene todo los gastos e inversiones y  ventas y ganancias dentro de toda la organizaci\'on.
 \\%
 \\%
-	\textbf{Ejemplo grafico de que tan eficiente es cada sucursal.}
+
 %
 \newpage%
 \subsection{Diagramas de flujo}
