@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=planeacion.tex
 
 [Frame0_View0,0]
-TopLine=37
-Cursor=1158
+TopLine=3
+Cursor=1319
 
 [Frame1]
 Flags=0
