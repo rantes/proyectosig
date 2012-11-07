@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=1366
+NormalPos.right=1235
 NormalPos.bottom=569
 Class=LaTeXView
-Document=input.tex
+Document=planeacion.tex
 
 [Frame0_View0,0]
-TopLine=0
-Cursor=834
+TopLine=37
+Cursor=1158
 
 [Frame1]
 Flags=0
@@ -29,14 +29,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=1366
+NormalPos.right=1235
 NormalPos.bottom=569
 Class=LaTeXView
-Document=title.tex
+Document=analisis.tex
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=74
+Cursor=7062
 
 [Frame2]
 Flags=0
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=1366
+NormalPos.right=1235
 NormalPos.bottom=569
 Class=LaTeXView
-Document=principal.tex
+Document=input.tex
 
 [Frame2_View0,0]
-TopLine=21
-Cursor=964
+TopLine=41
+Cursor=1195
 
 [Frame3]
 Flags=0
@@ -65,14 +65,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=1366
+NormalPos.right=1235
 NormalPos.bottom=569
 Class=LaTeXView
-Document=analisis.tex
+Document=principal.tex
 
 [Frame3_View0,0]
-TopLine=0
-Cursor=482
+TopLine=20
+Cursor=942
 
 [Frame4]
 Flags=0
@@ -83,14 +83,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=1366
+NormalPos.right=1235
 NormalPos.bottom=569
 Class=LaTeXView
-Document=problema.tex
+Document=introduccion.tex
 
 [Frame4_View0,0]
 TopLine=0
-Cursor=968
+Cursor=779
 
 [Frame5]
 Flags=0
@@ -101,14 +101,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=1366
+NormalPos.right=1235
 NormalPos.bottom=569
 Class=LaTeXView
 Document=objetivos.tex
 
 [Frame5_View0,0]
 TopLine=0
-Cursor=682
+Cursor=665
 
 [Frame6]
 Flags=0
@@ -119,16 +119,34 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=1366
+NormalPos.right=1235
 NormalPos.bottom=569
 Class=LaTeXView
-Document=introduccion.tex
+Document=problema.tex
 
 [Frame6_View0,0]
 TopLine=0
-Cursor=1041
+Cursor=277
+
+[Frame7]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=32
+NormalPos.right=1235
+NormalPos.bottom=569
+Class=LaTeXView
+Document=title.tex
+
+[Frame7_View0,0]
+TopLine=0
+Cursor=294
 
 [SessionInfo]
-FrameCount=7
+FrameCount=8
 ActiveFrame=0
 
