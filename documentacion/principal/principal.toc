@@ -5,35 +5,27 @@
 \contentsline {subsection}{\numberline {1.2.1}?`Vale la pena trabajar en este proyecto?}{2}
 \contentsline {subsection}{\numberline {1.2.2}?`Solucionar\'a los problemas?}{2}
 \contentsline {subsection}{\numberline {1.2.3}Agregar valor al proceso}{2}
-\contentsline {section}{\numberline {1.3}Dominio del problema}{3}
+\contentsline {section}{\numberline {1.3}Dominio del problema}{2}
 \contentsline {section}{\numberline {1.4}An\'alisis de el proceso del negocio}{3}
 \contentsline {subsection}{\numberline {1.4.1}Inventarios:}{3}
-\contentsline {subsection}{\numberline {1.4.2}Producci\'on:}{5}
+\contentsline {subsection}{\numberline {1.4.2}Producci\'on:}{4}
 \contentsline {subsection}{\numberline {1.4.3}Nomina:}{5}
 \contentsline {subsection}{\numberline {1.4.4}Ventas:}{5}
-\contentsline {subsection}{\numberline {1.4.5}Diagramas de flujo}{6}
-\contentsline {section}{\numberline {1.5}Identificaci\'on de requerimientos}{7}
-\contentsline {subsection}{\numberline {1.5.1}Requerimientos no funcionales}{7}
-\contentsline {subsection}{\numberline {1.5.2}Requerimientos funcionales}{8}
-\contentsline {section}{\numberline {1.6}Priorizaci\'on de requerimientos del sistema}{9}
-\contentsline {chapter}{\numberline {2}El Problema}{10}
-\contentsline {section}{\numberline {2.1}Descripci\'on del problema}{10}
-\contentsline {section}{\numberline {2.2}Formulaci\'on del problema}{10}
-\contentsline {section}{\numberline {2.3}Justificaci\'on}{10}
-\contentsline {section}{\numberline {2.4}Alcance}{11}
-\contentsline {chapter}{\numberline {3}Objetivos}{12}
-\contentsline {section}{\numberline {3.1}Objetivo General}{12}
-\contentsline {section}{\numberline {3.2}Objetivos espec\'ificos}{12}
-\contentsline {chapter}{\numberline {4}Planeaci\'on}{13}
-\contentsline {section}{\numberline {4.1}Planeaci\'on Organizacional}{13}
-\contentsline {subsection}{\numberline {4.1.1}Misi\'on}{13}
-\contentsline {subsection}{\numberline {4.1.2}Visi\'on}{13}
-\contentsline {section}{\numberline {4.2}Plan estr\'ategico de ventas}{14}
-\contentsline {subsection}{\numberline {4.2.1}Incentivos empleados:}{15}
-\contentsline {subsection}{\numberline {4.2.2}Degustaciones:}{15}
-\contentsline {subsection}{\numberline {4.2.3}Bonos y Rifas:}{15}
-\contentsline {section}{\numberline {4.3}Reportes}{16}
-\contentsline {section}{\numberline {4.4}Dise\~no de interface}{17}
-\contentsline {section}{\numberline {4.5}Recursos}{20}
-\contentsline {section}{\numberline {4.6}Presupuesto}{24}
-\contentsline {section}{\numberline {4.7}Cronograma}{26}
+\contentsline {chapter}{\numberline {2}El Problema}{6}
+\contentsline {section}{\numberline {2.1}Descripci\'on del problema}{6}
+\contentsline {section}{\numberline {2.2}Formulaci\'on del problema}{6}
+\contentsline {section}{\numberline {2.3}Justificaci\'on}{6}
+\contentsline {section}{\numberline {2.4}Alcance}{7}
+\contentsline {chapter}{\numberline {3}Objetivos}{8}
+\contentsline {section}{\numberline {3.1}Objetivo General}{8}
+\contentsline {section}{\numberline {3.2}Objetivos espec\'ificos}{8}
+\contentsline {chapter}{\numberline {4}Planeaci\'on}{9}
+\contentsline {section}{\numberline {4.1}Planeaci\'on Organizacional}{9}
+\contentsline {subsection}{\numberline {4.1.1}Misi\'on}{9}
+\contentsline {subsection}{\numberline {4.1.2}Visi\'on}{9}
+\contentsline {section}{\numberline {4.2}Plan estr\'ategico de ventas}{10}
+\contentsline {subsection}{\numberline {4.2.1}Incentivos empleados:}{11}
+\contentsline {subsection}{\numberline {4.2.2}Degustaciones:}{11}
+\contentsline {subsection}{\numberline {4.2.3}Bonos y Rifas:}{11}
+\contentsline {section}{\numberline {4.3}Dise\~no de interfaces}{11}
+\contentsline {chapter}{\numberline {5}ERP como soluci\'on adecuada}{13}
