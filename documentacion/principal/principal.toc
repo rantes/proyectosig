@@ -30,3 +30,4 @@
 \contentsline {subsection}{\numberline {4.4.4}Ventas:}{11}
 \contentsline {chapter}{\numberline {5}ERP como soluci\'on adecuada}{12}
 \contentsline {chapter}{\numberline {6}Marco Referencial}{13}
+\contentsline {chapter}{\numberline {7}Reportes}{15}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  12 NOV 2012 15:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  12 NOV 2012 22:48
 entering extended mode
 **principal.tex
 
@@ -260,7 +260,9 @@ aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\analisis.a
 ux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\comolasolu
-cion.aux))
+cion.aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\reportes.a
+ux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
@@ -311,22 +313,534 @@ LaTeX Font Info:    ... okay on input line 17.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\title.tex
-! I can't write on file `principal.pdf'.
-Please type another file name for output
-! Emergency stop.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.24 \end{titlepage}
-                    
-*** (job aborted, file error in nonstop mode)
+[1
 
- 
+{C:/Users/WillY/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\introducci
+on.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 2--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--21
+
+ []
+
+<images/header.png, id=8, 564.1075pt x 83.31125pt>
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 21.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[1
+
+
+ <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images/he
+ader.png>]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
+toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+ ("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+File: images/header.png Graphic file (type png)
+
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 27.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[2
+
+
+])
+\tf@toc=\write3
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 24.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[3]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
+lof)
+\tf@lof=\write4
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 29.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[4
+
+]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\problema.t
+ex
+ 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--24
+
+ []
+
+File: images/header.png Graphic file (type png)
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 24.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[1
+
+
+])
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 32.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[2]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\objetivos.
+tex
+ 2.
+)
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 35.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[3
+
+
+
+]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\planeacion
+.tex
+ 3.
+<images/Dibujo.jpg, id=33, 385.44pt x 462.528pt>
+File: images/Dibujo.jpg Graphic file (type jpg)
+ <use images/Dibujo.jpg>
+Package pdftex.def Info: images/Dibujo.jpg used on input line 25.
+(pdftex.def)             Requested size: 283.22162pt x 339.86577pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+File: images/header.png Graphic file (type png)
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 38.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[4
+
+
+
+]
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 38.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[5 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images/
+Dibujo.jpg>])
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 38.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[6]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\analisis.t
+ex
+ 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+<images/Eficienciadelasucursal.jpg, id=45, 435.42674pt x 254.75175pt>
+File: images/Eficienciadelasucursal.jpg Graphic file (type jpg)
+
+<use images/Eficienciadelasucursal.jpg>
+Package pdftex.def Info: images/Eficienciadelasucursal.jpg used on input line 1
+8.
+(pdftex.def)             Requested size: 283.22162pt x 165.70717pt.
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 28.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[7
+
+
+
+ <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images/Ef
+icienciadelasucursal.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+
+ []
+
+File: images/header.png Graphic file (type png)
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 63.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[8] <images/Inventarioinsumo.jpg, id=53, 355.3275pt x 76.48575pt>
+File: images/Inventarioinsumo.jpg Graphic file (type jpg)
+
+<use images/Inventarioinsumo.jpg>
+Package pdftex.def Info: images/Inventarioinsumo.jpg used on input line 80.
+(pdftex.def)             Requested size: 283.22162pt x 60.9669pt.
+
+<images/Graficoinventarioinsumo.jpg, id=54, 436.029pt x 255.354pt>
+File: images/Graficoinventarioinsumo.jpg Graphic file (type jpg)
+
+<use images/Graficoinventarioinsumo.jpg>
+Package pdftex.def Info: images/Graficoinventarioinsumo.jpg used on input line 
+102.
+(pdftex.def)             Requested size: 283.22162pt x 165.87292pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--109
+
+ []
+
+File: images/header.png Graphic file (type png)
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 109.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[9 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images/
+Inventarioinsumo.jpg>]
+<images/Producidavendidaperdida.jpg, id=58, 411.939pt x 242.1045pt>
+File: images/Producidavendidaperdida.jpg Graphic file (type jpg)
+
+<use images/Producidavendidaperdida.jpg>
+Package pdftex.def Info: images/Producidavendidaperdida.jpg used on input line 
+120.
+(pdftex.def)             Requested size: 283.22162pt x 166.45383pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--132
+
+ []
+
+File: images/header.png Graphic file (type png)
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 132.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[10 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images
+/Graficoinventarioinsumo.jpg> <C:/Users/WillY/Documents/GitHub/proyectosig/docu
+mentacion/principal/images/Producidavendidaperdida.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 133--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--139
+
+ []
+
+)
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 41.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[11]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\comolasolu
+cion.tex
+ 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--15
+
+ []
+
+File: images/header.png Graphic file (type png)
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 16.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[12
+
+
+
+]
+ 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--30
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 E
+      l ERP consta de un flujo constante de informaci\'on entre las \'areas ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \\
+       %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 D
+      espu\'es de un determinado tiempo de automatizar nuestra organizaci\'o...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
+
+ []
+
+File: images/header.png Graphic file (type png)
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 58.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[13
+
+])
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 45.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[14]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\reportes.t
+ex
+ 7.
+<images/REPORTEINSUMOS.jpg, id=75, 411.33675pt x 232.4685pt>
+File: images/REPORTEINSUMOS.jpg Graphic file (type jpg)
+
+<use images/REPORTEINSUMOS.jpg>
+Package pdftex.def Info: images/REPORTEINSUMOS.jpg used on input line 8.
+(pdftex.def)             Requested size: 283.22162pt x 160.06999pt.
+
+<images/REPORTEVENTASGENERAL.jpg, id=76, 411.939pt x 233.07076pt>
+File: images/REPORTEVENTASGENERAL.jpg Graphic file (type jpg)
+
+<use images/REPORTEVENTASGENERAL.jpg>
+Package pdftex.def Info: images/REPORTEVENTASGENERAL.jpg used on input line 20.
+
+(pdftex.def)             Requested size: 283.22162pt x 160.24284pt.
+
+<images/REPORTEVENTASSUCURSAL.jpg, id=77, 462.528pt x 322.806pt>
+File: images/REPORTEVENTASSUCURSAL.jpg Graphic file (type jpg)
+
+<use images/REPORTEVENTASSUCURSAL.jpg>
+Package pdftex.def Info: images/REPORTEVENTASSUCURSAL.jpg used on input line 32
+.
+(pdftex.def)             Requested size: 283.22162pt x 197.67484pt.
+)
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 48.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[15
+
+
+
+ <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images/RE
+PORTEINSUMOS.jpg> <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/pr
+incipal/images/REPORTEVENTASGENERAL.jpg>]
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 48.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[16 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images
+/REPORTEVENTASSUCURSAL.jpg>]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
+aux
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\introducci
+on.aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\problema.a
+ux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\objetivos.
+aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\planeacion
+.aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\analisis.a
+ux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\comolasolu
+cion.aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\reportes.a
+ux)) ) 
 Here is how much of TeX's memory you used:
- 4304 strings out of 494045
- 61992 string characters out of 3143954
- 130623 words of memory out of 3000000
- 7547 multiletter control sequences out of 15000+200000
- 5137 words of font info for 19 fonts, out of 3000000 for 9000
+ 4475 strings out of 494045
+ 67567 string characters out of 3143954
+ 135948 words of memory out of 3000000
+ 7643 multiletter control sequences out of 15000+200000
+ 11966 words of font info for 44 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 38i,4n,43p,250b,207s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 38i,14n,43p,763b,588s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsfonts
+/cm/cmcsc10.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/
+amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb>
+Output written on principal.pdf (21 pages, 733477 bytes).
+PDF statistics:
+ 107 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
