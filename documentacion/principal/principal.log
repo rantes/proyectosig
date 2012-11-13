@@ -1,14 +1,23 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.8)  11 NOV 2012 11:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  12 NOV 2012 15:48
 entering extended mode
- %&-line parsing enabled.
 **principal.tex
-(./principal.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
-(/usr/share/texmf-texlive/tex/latex/base/report.cls
+
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
+tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,10 +33,10 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2009/06/22 v3.00
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup4
@@ -35,24 +44,24 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen103
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -93,59 +102,66 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/share/texmf-texlive/tex/latex/base/alltt.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\base\alltt.sty"
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
 \Gread@gobject=\count100
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
 
-(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
-Package: babel 2008/07/06 v3.8l The Babel package
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
 
-(/usr/share/texmf-texlive/tex/generic/babel/spanish.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\babel\spanish.ldf"
 Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
 
-(/usr/share/texmf-texlive/tex/generic/babel/babel.def
-File: babel.def 2008/07/06 v3.8l Babel common definitions
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count101
 \U@D=\dimen114
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Spanish'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@spanish = a dialect from \language0
 \es@datefmt=\count102
 \es@quottoks=\toks23
 \es@quotdepth=\count103
@@ -153,16 +169,17 @@ Package babel Info: Making " an active character on input line 492.
 Package babel Info: Making . an active character on input line 585.
 Package babel Info: Making < an active character on input line 630.
 Package babel Info: Making > an active character on input line 630.
-)) (/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
-Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
-
-Package: `setspace' 6.7 <2000/12/01>
-) (/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+))
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen115
 \epsfysize=\dimen116
-) (./input.tex
-(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\input.tex
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
 \f@ncyO@erh=\skip48
@@ -173,16 +190,19 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
-Package: geometry 2008/12/21 v4.2 Page Geometry
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode detected.
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count104
 \Gm@cntv=\count105
@@ -191,41 +211,56 @@ Package ifvtex Info: VTeX not detected.
 \Gm@wd@mp=\dimen118
 \Gm@odd@mp=\dimen119
 \Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
 \Gm@dimlist=\toks24
-)
-(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
-Package: caption 2009/10/09 v3.1k Customizing captions (AR)
 
-(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
-Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
-\captionmargin=\dimen121
-\captionmargin@=\dimen122
-\captionwidth=\dimen123
-\caption@indent=\dimen124
-\caption@parindent=\dimen125
-\caption@hangindent=\dimen126
+("C:\Program Files (x86)\Miktex 2.9.4521\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen125
+\captionmargin@=\dimen126
+\captionwidth=\dimen127
+\caption@indent=\dimen128
+\caption@parindent=\dimen129
+\caption@hangindent=\dimen130
 )
 \c@ContinuedFloat=\count107
 )
-(/usr/share/texmf-texlive/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2007/08/12 v2.8 Sectioning titles
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip55
 \aftertitleunit=\skip56
-\ttl@plus=\dimen127
-\ttl@minus=\dimen128
+\ttl@plus=\dimen131
+\ttl@minus=\dimen132
 \ttl@toksa=\toks25
-\titlewidth=\dimen129
-\titlewidthlast=\dimen130
-\titlewidthfirst=\dimen131
+\titlewidth=\dimen133
+\titlewidthlast=\dimen134
+\titlewidthfirst=\dimen135
 )
-(/usr/share/texmf-texlive/tex/latex/titlesec/block.tss
-File: block.tss 2007/08/12
-)) (./principal.aux
-(./introduccion.aux) (./problema.aux) (./objetivos.aux) (./planeacion.aux)
-(./analisis.aux) (./comolasolucion.aux))
-\openout1 = `principal.aux'.
-
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\block.tss"
+File: block.tss 2011/12/15
+))
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
+aux
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\introducci
+on.aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\problema.a
+ux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\objetivos.
+aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\planeacion
+.aux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\analisis.a
+ux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\comolasolu
+cion.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
@@ -239,369 +274,59 @@ LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen132
-\scratchbox=\box29
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen133
-\MPnumerator=\count112
-\everyMPtoPDFconversion=\toks27
-)
-*geometry auto-detecting driver*
-*geometry detected driver: pdftex*
--------------------- Geometry parameters
-paper: class default
-landscape: --
-twocolumn: --
-twoside: true
-asymmetric: --
-h-parts: 71.13188pt, 472.03123pt, 71.13188pt
-v-parts: 85.35826pt, 624.25346pt, 85.35826pt
-hmarginratio: --
-vmarginratio: --
-lines: --
-heightrounded: --
-bindingoffset: 0.0pt
-truedimen: --
-includehead: --
-includefoot: --
-includemp: --
-driver: pdftex
--------------------- Page layout dimensions and switches
-\paperwidth  614.295pt
-\paperheight 794.96999pt
-\textwidth  472.03123pt
-\textheight 624.25346pt
-\oddsidemargin  -1.1381pt
-\evensidemargin -1.1381pt
-\topmargin  -65.98174pt
-\headheight 74.07pt
-\headsep    5.0pt
-\footskip   30.0pt
-\marginparwidth 95.0pt
-\marginparsep   10.0pt
-\columnsep  10.0pt
-\skip\footins  10.8pt plus 4.0pt minus 2.0pt
-\hoffset 0.0pt
-\voffset 10.0pt
-\mag 1000
-\@twosidetrue \@mparswitchtrue 
-(1in=72.27pt, 1cm=28.45pt)
------------------------
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=624.25346pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-65.98174pt
+* \headheight=74.07pt
+* \headsep=5.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=95.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=10.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-(./title.tex [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-\openout2 = `introduccion.aux'.
-
-
-(./introduccion.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--21
-
- []
-
-<images/header.png, id=8, 564.1075pt x 83.31125pt>
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[1
-
-
- <./images/header.png (PNG copy)>] (./principal.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[2
-
-
-])
-\tf@toc=\write3
-\openout3 = `principal.toc'.
-
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[3] (./principal.lof)
-\tf@lof=\write4
-\openout4 = `principal.lof'.
-
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[4
-
-]
-\openout2 = `problema.aux'.
-
- (./problema.tex
- 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--24
-
- []
-
-File: images/header.png Graphic file (type png)
-<use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[1
-
-
-])
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[2]
-\openout2 = `objetivos.aux'.
-
- (./objetivos.tex
- 2.
-)
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[3
-
-
-
-]
-\openout2 = `planeacion.aux'.
-
- (./planeacion.tex
- 3.
-<images/Dibujo.jpg, id=33, 385.44pt x 462.528pt>
-File: images/Dibujo.jpg Graphic file (type jpg)
- <use images/Dibujo.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-
- []
-
-File: images/header.png Graphic file (type png)
-<use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[4
-
-
-
-]
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[5 <./images/Dibujo.jpg>])
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[6]
-\openout2 = `analisis.aux'.
-
- (./analisis.tex
- 4.
-
-Overfull \hbox (9.5505pt too wide) in paragraph at lines 2--2
- |[]\OT1/cmr/bx/n/17.28 Identificaci^^Son de prob-le-mas y opor-tu-nidades b^^S
-asicas| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-<images/Eficienciadelasucursal.jpg, id=45, 435.42674pt x 254.75175pt>
-File: images/Eficienciadelasucursal.jpg Graphic file (type jpg)
-
-<use images/Eficienciadelasucursal.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 29--34
-
- []
-
-File: images/header.png Graphic file (type png)
-<use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[7
-
-
-
- <./images/Eficienciadelasucursal.jpg>]
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[8] <images/Inventarioinsumo.jpg, id=53, 355.3275pt x 76.48575pt>
-File: images/Inventarioinsumo.jpg Graphic file (type jpg)
-
-<use images/Inventarioinsumo.jpg>
-<images/Graficoinventarioinsumo.jpg, id=54, 436.029pt x 255.354pt>
-File: images/Graficoinventarioinsumo.jpg Graphic file (type jpg)
-
-<use images/Graficoinventarioinsumo.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 88--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--109
-
- []
-
-<images/Producidavendidaperdida.jpg, id=55, 411.939pt x 242.1045pt>
-File: images/Producidavendidaperdida.jpg Graphic file (type jpg)
-
-<use images/Producidavendidaperdida.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 109--127
-
- []
-
-File: images/header.png Graphic file (type png)
-<use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[9 <./images/Inventarioinsumo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-
- []
-
-File: images/header.png Graphic file (type png)
-<use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[10 <./images/Graficoinventarioinsumo.jpg> <./images/Producidavendidaperdida.jp
-g>]
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-
- []
-
-)
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[11]
-\openout2 = `comolasolucion.aux'.
-
- (./comolasolucion.tex
- 5.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 11--45
-
- []
-
-File: images/header.png Graphic file (type png)
-<use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[12
-
-
-
-] (./principal.aux (./introduccion.aux) (./problema.aux) (./objetivos.aux)
-(./planeacion.aux) (./analisis.aux) (./comolasolucion.aux)) ) 
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\title.tex
+! I can't write on file `principal.pdf'.
+Please type another file name for output
+! Emergency stop.
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.24 \end{titlepage}
+                    
+*** (job aborted, file error in nonstop mode)
+
+ 
 Here is how much of TeX's memory you used:
- 4336 strings out of 495061
- 59397 string characters out of 1182622
- 129661 words of memory out of 3000000
- 7409 multiletter control sequences out of 15000+50000
- 11966 words of font info for 44 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 38i,14n,43p,763b,577s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on principal.pdf (17 pages, 488287 bytes).
-PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 4304 strings out of 494045
+ 61992 string characters out of 3143954
+ 130623 words of memory out of 3000000
+ 7547 multiletter control sequences out of 15000+200000
+ 5137 words of font info for 19 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 38i,4n,43p,250b,207s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

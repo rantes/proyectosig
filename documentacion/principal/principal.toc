@@ -22,10 +22,11 @@
 \contentsline {subsection}{\numberline {4.2.1}?`Vale la pena trabajar en este proyecto?}{8}
 \contentsline {subsection}{\numberline {4.2.2}?`Solucionar\'a los problemas?}{8}
 \contentsline {subsection}{\numberline {4.2.3}Agregar valor al proceso}{8}
-\contentsline {section}{\numberline {4.3}Dominio del problema}{8}
+\contentsline {section}{\numberline {4.3}Dominio del problema}{9}
 \contentsline {section}{\numberline {4.4}An\'alisis de el proceso del negocio}{9}
 \contentsline {subsection}{\numberline {4.4.1}Inventarios:}{9}
-\contentsline {subsection}{\numberline {4.4.2}Producci\'on:}{10}
+\contentsline {subsection}{\numberline {4.4.2}Producci\'on:}{11}
 \contentsline {subsection}{\numberline {4.4.3}Nomina:}{11}
 \contentsline {subsection}{\numberline {4.4.4}Ventas:}{11}
 \contentsline {chapter}{\numberline {5}ERP como soluci\'on adecuada}{12}
+\contentsline {chapter}{\numberline {6}Marco Referencial}{13}
