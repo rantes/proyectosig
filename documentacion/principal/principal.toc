@@ -28,6 +28,13 @@
 \contentsline {subsection}{\numberline {4.4.2}Producci\'on:}{11}
 \contentsline {subsection}{\numberline {4.4.3}Nomina:}{11}
 \contentsline {subsection}{\numberline {4.4.4}Ventas:}{11}
-\contentsline {chapter}{\numberline {5}ERP como soluci\'on adecuada}{12}
-\contentsline {chapter}{\numberline {6}Marco Referencial}{13}
-\contentsline {chapter}{\numberline {7}Reportes}{15}
+\contentsline {chapter}{\numberline {5}Requerimientos}{12}
+\contentsline {section}{\numberline {5.1}Analisis de requerimientos}{12}
+\contentsline {section}{\numberline {5.2}Analisis de requerimientos}{13}
+\contentsline {subsection}{\numberline {5.2.1}Requerimientos generales}{13}
+\contentsline {subsection}{\numberline {5.2.2}Requerimientos b\'asicos}{14}
+\contentsline {section}{\numberline {5.3}Requerimientos funcionales}{14}
+\contentsline {section}{\numberline {5.4}Priorizar los requerimientos del sistema}{15}
+\contentsline {chapter}{\numberline {6}ERP como soluci\'on adecuada}{16}
+\contentsline {chapter}{\numberline {7}Marco Referencial}{17}
+\contentsline {chapter}{\numberline {8}Reportes}{19}

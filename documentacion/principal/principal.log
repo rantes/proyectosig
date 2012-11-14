@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  12 NOV 2012 22:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  14 NOV 2012 14:20
 entering extended mode
 **principal.tex
 
@@ -259,6 +259,8 @@ aux)
 .aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\analisis.a
 ux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\requerimie
+ntos.aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\comolasolu
 cion.aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\reportes.a
@@ -637,9 +639,381 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  []
 
 [11]
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\requerimie
+ntos.tex
+ 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--43
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: images/header.png Graphic file (type png)
+
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 43.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[12
+
+
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \\
+       %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ¿
+      Qu\'e es lo que se hace?
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--94
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: images/header.png Graphic file (type png)
+
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 94.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[13] <images/requerimientosfuncionales.jpg, id=71, 414.348pt x 217.41225pt>
+File: images/requerimientosfuncionales.jpg Graphic file (type jpg)
+
+<use images/requerimientosfuncionales.jpg>
+Package pdftex.def Info: images/requerimientosfuncionales.jpg used on input lin
+e 101.
+(pdftex.def)             Requested size: 283.22162pt x 148.608pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 \\
+        %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 \\
+        %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 \\
+        %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \\
+        %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 \\
+        %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 \\
+        %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 \\
+        %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 R
+       equerimientos no funcionales
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/requerimientosnofuncionales.jpg, id=72, 413.1435pt x 127.677pt>
+File: images/requerimientosnofuncionales.jpg Graphic file (type jpg)
+
+<use images/requerimientosnofuncionales.jpg>
+Package pdftex.def Info: images/requerimientosnofuncionales.jpg used on input l
+ine 123.
+(pdftex.def)             Requested size: 283.22162pt x 87.52834pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--132
+
+ []
+
+<images/requerimientos.jpg, id=73, 407.72325pt x 395.67825pt>
+File: images/requerimientos.jpg Graphic file (type jpg)
+
+<use images/requerimientos.jpg>
+Package pdftex.def Info: images/requerimientos.jpg used on input line 141.
+(pdftex.def)             Requested size: 283.22162pt x 274.8537pt.
+)
+Underfull \vbox (badness 3179) has occurred while \output is active []
+
+File: images/header.png Graphic file (type png)
+
+<use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 45.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[14 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images
+/requerimientosfuncionales.jpg>]
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Package pdftex.def Info: images/header.png used on input line 45.
+(pdftex.def)             Requested size: 472.03123pt x 69.714pt.
+
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[15 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images
+/requerimientosnofuncionales.jpg> <C:/Users/WillY/Documents/GitHub/proyectosig/
+documentacion/principal/images/requerimientos.jpg>]
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\comolasolu
 cion.tex
- 5.
+ 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
@@ -654,12 +1028,12 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[12
+[16
 
 
 
 ]
- 6.
+ 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--30
 
@@ -740,30 +1114,30 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[13
+[17
 
 ])
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 45.
+Package pdftex.def Info: images/header.png used on input line 48.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[14]
+[18]
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\reportes.t
 ex
- 7.
-<images/REPORTEINSUMOS.jpg, id=75, 411.33675pt x 232.4685pt>
+ 8.
+<images/REPORTEINSUMOS.jpg, id=90, 411.33675pt x 232.4685pt>
 File: images/REPORTEINSUMOS.jpg Graphic file (type jpg)
 
 <use images/REPORTEINSUMOS.jpg>
 Package pdftex.def Info: images/REPORTEINSUMOS.jpg used on input line 8.
 (pdftex.def)             Requested size: 283.22162pt x 160.06999pt.
 
-<images/REPORTEVENTASGENERAL.jpg, id=76, 411.939pt x 233.07076pt>
+<images/REPORTEVENTASGENERAL.jpg, id=91, 411.939pt x 233.07076pt>
 File: images/REPORTEVENTASGENERAL.jpg Graphic file (type jpg)
 
 <use images/REPORTEVENTASGENERAL.jpg>
@@ -771,7 +1145,7 @@ Package pdftex.def Info: images/REPORTEVENTASGENERAL.jpg used on input line 20.
 
 (pdftex.def)             Requested size: 283.22162pt x 160.24284pt.
 
-<images/REPORTEVENTASSUCURSAL.jpg, id=77, 462.528pt x 322.806pt>
+<images/REPORTEVENTASSUCURSAL.jpg, id=92, 462.528pt x 322.806pt>
 File: images/REPORTEVENTASSUCURSAL.jpg Graphic file (type jpg)
 
 <use images/REPORTEVENTASSUCURSAL.jpg>
@@ -781,14 +1155,14 @@ Package pdftex.def Info: images/REPORTEVENTASSUCURSAL.jpg used on input line 32
 )
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 48.
+Package pdftex.def Info: images/header.png used on input line 51.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[15
+[19
 
 
 
@@ -797,14 +1171,14 @@ PORTEINSUMOS.jpg> <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/pr
 incipal/images/REPORTEVENTASGENERAL.jpg>]
 File: images/header.png Graphic file (type png)
  <use images/header.png>
-Package pdftex.def Info: images/header.png used on input line 48.
+Package pdftex.def Info: images/header.png used on input line 51.
 (pdftex.def)             Requested size: 472.03123pt x 69.714pt.
 
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[16 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images
+[20 <C:/Users/WillY/Documents/GitHub/proyectosig/documentacion/principal/images
 /REPORTEVENTASSUCURSAL.jpg>]
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\principal.
 aux
@@ -818,15 +1192,17 @@ aux)
 .aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\analisis.a
 ux)
+(C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\requerimie
+ntos.aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\comolasolu
 cion.aux)
 (C:\Users\WillY\Documents\GitHub\proyectosig\documentacion\principal\reportes.a
 ux)) ) 
 Here is how much of TeX's memory you used:
- 4475 strings out of 494045
- 67567 string characters out of 3143954
- 135948 words of memory out of 3000000
- 7643 multiletter control sequences out of 15000+200000
+ 4500 strings out of 494045
+ 68718 string characters out of 3143954
+ 136273 words of memory out of 3000000
+ 7659 multiletter control sequences out of 15000+200000
  11966 words of font info for 44 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  38i,14n,43p,763b,588s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -838,9 +1214,9 @@ onts/cm/cmr10.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/am
 sfonts/cm/cmr12.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/public/
 amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/Miktex 2.9.4521/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on principal.pdf (21 pages, 733477 bytes).
+Output written on principal.pdf (25 pages, 1054026 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
