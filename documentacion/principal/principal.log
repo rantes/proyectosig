@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.8)  14 NOV 2012 14:35
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.8)  14 NOV 2012 15:02
 entering extended mode
  %&-line parsing enabled.
 **principal.tex
@@ -505,7 +505,7 @@ File: images/Inventarioinsumo.jpg Graphic file (type jpg)
 File: images/Graficoinventarioinsumo.jpg Graphic file (type jpg)
 
 <use images/Graficoinventarioinsumo.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 74--100
+Underfull \hbox (badness 10000) in paragraph at lines 59--85
 
  []
 
@@ -520,12 +520,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 File: images/Producidavendidaperdida.jpg Graphic file (type jpg)
 
 <use images/Producidavendidaperdida.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 100--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
 
  []
 
@@ -537,34 +532,48 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 
 [10 <./images/Graficoinventarioinsumo.jpg> <./images/Producidavendidaperdida.jp
 g>]
-Underfull \hbox (badness 10000) in paragraph at lines 124--130
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--130
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--130
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
 
  []
 
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--118
+
+ []
+
 File: images/header.png Graphic file (type png)
- <use images/header.png>
+<use images/header.png>
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
 [11]
-\openout2 = `comolasolucion.aux'.
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
- (./comolasolucion.tex
- 5.
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--15
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--145
 
  []
 
@@ -574,34 +583,8 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[12
-
-
-
-]
- 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--30
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 51--45
+[12])
+Underfull \hbox (badness 10000) in paragraph at lines 153--38
 
  []
 
@@ -611,29 +594,20 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[13
-
-]
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[14]
+[13]
 \openout2 = `reportes.aux'.
 
  (./reportes.tex
- 7.
-<images/REPORTEINSUMOS.jpg, id=75, 411.33675pt x 232.4685pt>
+ 5.
+<images/REPORTEINSUMOS.jpg, id=71, 411.33675pt x 232.4685pt>
 File: images/REPORTEINSUMOS.jpg Graphic file (type jpg)
 
 <use images/REPORTEINSUMOS.jpg>
-<images/REPORTEVENTASGENERAL.jpg, id=76, 411.939pt x 233.07076pt>
+<images/REPORTEVENTASGENERAL.jpg, id=72, 411.939pt x 233.07076pt>
 File: images/REPORTEVENTASGENERAL.jpg Graphic file (type jpg)
 
 <use images/REPORTEVENTASGENERAL.jpg>
-<images/REPORTEVENTASSUCURSAL.jpg, id=77, 462.528pt x 322.806pt>
+<images/REPORTEVENTASSUCURSAL.jpg, id=73, 462.528pt x 322.806pt>
 File: images/REPORTEVENTASSUCURSAL.jpg Graphic file (type jpg)
 
 <use images/REPORTEVENTASSUCURSAL.jpg>)
@@ -643,7 +617,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[15
+[14
 
 
 
@@ -655,27 +629,31 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[16 <./images/REPORTEVENTASSUCURSAL.jpg>] (./principal.aux (./introduccion.aux)
+[15 <./images/REPORTEVENTASSUCURSAL.jpg>] (./principal.aux (./introduccion.aux)
 (./problema.aux) (./objetivos.aux) (./planeacion.aux) (./analisis.aux)
-(./comolasolucion.aux) (./reportes.aux)) ) 
+(./reportes.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4361 strings out of 495061
- 60063 string characters out of 1182622
- 130986 words of memory out of 3000000
- 7424 multiletter control sequences out of 15000+50000
+ 4358 strings out of 495061
+ 60027 string characters out of 1182622
+ 129986 words of memory out of 3000000
+ 7425 multiletter control sequences out of 15000+50000
  11966 words of font info for 44 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,14n,43p,763b,577s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-csc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on principal.pdf (21 pages, 734780 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pf
+b>
+Output written on principal.pdf (20 pages, 734034 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -26,8 +26,8 @@
 \contentsline {section}{\numberline {4.4}An\'alisis de los procesos del negocio}{9}
 \contentsline {subsection}{\numberline {4.4.1}Inventarios:}{9}
 \contentsline {subsection}{\numberline {4.4.2}Producci\'on:}{11}
-\contentsline {subsection}{\numberline {4.4.3}Nomina:}{11}
+\contentsline {subsection}{\numberline {4.4.3}N\'omina:}{11}
 \contentsline {subsection}{\numberline {4.4.4}Ventas:}{11}
-\contentsline {chapter}{\numberline {5}ERP como soluci\'on adecuada}{12}
-\contentsline {chapter}{\numberline {6}Marco Referencial}{13}
-\contentsline {chapter}{\numberline {7}Reportes}{15}
+\contentsline {section}{\numberline {4.5}Marco Referencial}{11}
+\contentsline {section}{\numberline {4.6}ERP como soluci\'on adecuada}{12}
+\contentsline {chapter}{\numberline {5}Reportes}{14}
