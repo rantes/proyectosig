@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.8)  14 NOV 2012 15:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.8)  14 NOV 2012 18:25
 entering extended mode
  %&-line parsing enabled.
 **principal.tex
@@ -223,7 +223,7 @@ Package: titlesec 2007/08/12 v2.8 Sectioning titles
 File: block.tss 2007/08/12
 )) (./principal.aux
 (./introduccion.aux) (./problema.aux) (./objetivos.aux) (./planeacion.aux)
-(./analisis.aux) (./comolasolucion.aux) (./reportes.aux))
+(./analisis.aux) (./reportes.aux))
 \openout1 = `principal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -547,17 +547,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--106
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--118
+Underfull \hbox (badness 10000) in paragraph at lines 108--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--118
+Underfull \hbox (badness 10000) in paragraph at lines 108--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--118
+Underfull \hbox (badness 10000) in paragraph at lines 108--116
 
  []
 
@@ -568,12 +568,12 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--145
+Underfull \hbox (badness 10000) in paragraph at lines 137--143
 
  []
 
@@ -584,7 +584,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  []
 
 [12])
-Underfull \hbox (badness 10000) in paragraph at lines 153--38
+Underfull \hbox (badness 10000) in paragraph at lines 151--38
 
  []
 
@@ -631,27 +631,23 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 
 [15 <./images/REPORTEVENTASSUCURSAL.jpg>] (./principal.aux (./introduccion.aux)
 (./problema.aux) (./objetivos.aux) (./planeacion.aux) (./analisis.aux)
-(./reportes.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./reportes.aux)) ) 
 Here is how much of TeX's memory you used:
- 4358 strings out of 495061
- 60027 string characters out of 1182622
- 129986 words of memory out of 3000000
- 7425 multiletter control sequences out of 15000+50000
+ 4353 strings out of 495061
+ 59913 string characters out of 1182622
+ 129694 words of memory out of 3000000
+ 7423 multiletter control sequences out of 15000+50000
  11966 words of font info for 44 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,14n,43p,763b,577s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pf
-b>
-Output written on principal.pdf (20 pages, 734034 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmti12.pfb>
+Output written on principal.pdf (20 pages, 734151 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
