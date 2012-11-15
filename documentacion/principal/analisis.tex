@@ -1,13 +1,13 @@
 \chapter{An\'alisis del sistema}
 \section{Identificaci\'on de problemas y oportunidades b\'asicas}
 En el estudio del sistema, se encontraron los siguientes problemas:%
-\\
+\\%
 \begin{itemize}
-\item El sistema debe ser flexible y parametrizable.%
-\item El volumen del flujo de datos es muy grande.%
-\item El producto final, esta sujeto a caducidad.%
-\item Se requieren promociones temporales y permanentes variables.%
-\item Las comunicaciones en las sucursales no es \'optima.%
+	\item El sistema debe ser flexible y parametrizable.%
+	\item El volumen del flujo de datos es muy grande.%
+	\item El producto final, esta sujeto a caducidad.%
+	\item Se requieren promociones temporales y permanentes variables.%
+	\item Las comunicaciones en las sucursales no es \'optima.%
 \end{itemize}%
 %
 \begin{figure}[htbp]
@@ -46,21 +46,6 @@ Se agrega valor en los siguientes aspectos:%
 \section{Dominio del problema}
 El sistema que es implementado de forma sencilla no tan complejo ya que son pocos procesos que intervienen; siendo asi un sistema con escasamente 2 actores, los clientes y el ususario del sistema que puede ser gerente de mercadeo, administrador del sistema o gerente de ventas.%
 %
-%\begin{figure}[htbp]
-%	\centering
-%		\includegraphics[width=0.60\textwidth]{images/contexto.png}
-%	\caption{Diagrama de contexto del dominio del problema}
-%	\label{fig:contexto}
-%\end{figure}%
-%
-%
-%\begin{figure}[htbp]
-%	\centering
-%		\includegraphics[width=0.60\textwidth]{images/problemasoportunidades.png}
-%	\caption{Matriz de problemas y oportunidades b\'asicas}
-%	\label{fig:anaproblemas}
-%\end{figure}%
-%
 \section{An\'alisis de los procesos del negocio}
 Los principales procesos est\'an identificados de la siguiente manera:%
 	\begin{itemize}
@@ -85,7 +70,7 @@ Los principales procesos est\'an identificados de la siguiente manera:%
 Otro prop\'osito fundamental al generar este sistema dentro de los procesos que se encuentran en el inventario de insumos es automatizarlo para que facilite su utilizaci\'on, creaci\'on de reportes para saber si esta siendo efectiva la producci\'on y rentable dependiendo de la sucursal ya que en cada sucursal va a tener una tasa de producci\'on diferente, Lo cual es fundamental para la toma de decisiones; si en una sucursal hay una tasa de producci\'on mayor que otra, identificar los diferentes factores que inciden, decidir si es necesario implementar campa\~nas con respecto a las dem\'as, o solamente es un flujo normal por las condiciones demogr\'aficas. 
 \\%
 \\%
-Al automatizar este proceso podemos saber que producto requiere de m\'as insumo que otro, y as\'i poder generar reportes y controles, como puede apreciar en la figura\ref{fig:Graficodeinventariodeinsumos}.
+Al automatizar este proceso podemos saber que producto requiere de m\'as insumo que otro, y as\'i poder generar reportes y controles, como se puede apreciar en la figura\ref{fig:Graficodeinventariodeinsumos}.
 %
 \begin{figure}[htbp]
 %centering es para centrar la imagen
@@ -98,70 +83,74 @@ Al automatizar este proceso podemos saber que producto requiere de m\'as insumo 
 \end{figure}%
 %	
 		\item \textbf{Inventario de producci\'on:} en  este inventario se manejan los productos ya producidos debidamente controlados por el sistema, como por ejemplo la cantidad de panes producidos de un tipo. La automatizaci\'on de este proceso ayuda a saber la cantidad que se esta produciendo, cantidad que se esta vendiendo, y cantidad que se esta perdiendo.
-		\\%
-		\\%
-				\textbf{El siguiente grafico muestra en una sucursal la cantidad producida de un producto, cantidad vendida, y cantidad no vendida.}
-					%
+%
 \begin{figure}[htbp]
-%centering es para centrar la imagen
 	\centering
-%aca es donde se incluye la imagen, se da el ancho(width), \textwidth significa que con repescto al tamano del
-%texto y luego la ruta, relativa siempre es decir, a partir de donde se esta, como images esta ahi
-%dentro, solo se usa desde images y ojala nada de espacios en el nombre de la imagen
 		\includegraphics[width=0.60\textwidth]{images/Producidavendidaperdida.jpg}
-%el caption es para el texto que aparece debajo de la imagen
-	\caption{Grafico de produccion ventas y perdidas}
-%label es para darle una referencia, por ejemplo si uno dice "como se puede ver en la imagen a1"
-	\label{fig:Grafico de produccion ventas y perdidas}
+	\caption{Grafico de produccion ventas y p\'erdidas, cantidad producida de un producto, cantidad vendida, y cantidad no vendida}
+	\label{fig:Graficodeproduccionventasyperdidas}
 \end{figure}%
-%	
-	\end{itemize}
-	\subsection{Producci\'on:}En este proceso se ejecuta al tener todos los inventarios insumos, y as\'i empezar la producci\'on y toda la informaci\'on referente a la producci\'on es guardada en el inventario de producci\'on, en este proceso solo se encargara de convertir la materia prima en el producto.	
-\\%
-\\%
-Al implementarse este sistema en este proceso tendr\'a varios controles, tales como: higiene de producto, mantenimiento de maquinaria. Al realizar todo este proceso podemos realizar los reportes por medio de graficas, estos reportes realizados son de todas las sucursales y esto nos mostrara que sucursal es mas eficiente, cual puede estar en mucha perdida para si tomar decisiones con respecto a estos reportes como por ejemplo si una sucursal gr\'aficamente esta descendiendo se puede llegar a tomar una decisi\'on de cerrar la sucursal por perdida.
-\subsection{Nomina:}en este proceso gestionara la nomina de los empleados, y as\'i tener un control apropiado a todos los empleados, como por ejemplo saber si un empleado esta cumpliendo con sus horas que se le asignan por mes y pagos realizados a los clientes, de este proceso tambi\'en se generan reportes para saber que tasa de inversi\'on se esta haciendo en los empleados.
-\subsection{Ventas:}en este proceso se gestionara toda las ventas, cantidad vendida, pedidos dependiendo de la sucursal, cantidad de clientes por d\'ia, d\'ias mas rentables y toda esta estad\'istica se obtiene de este proceso que sirve para poder realizar cambios de atenci\'on o mejorar productos, dependiendo si esta llegando la cantidad suficiente de clientes, tambi\'en podemos saber que cliente es mas frecuente y asi poder dar beneficios adionales para mantener el cliente por mas tiempo. Tambi\'en se puede puede saber que sucursal tiene mas taza de clientes.
-\\%
-\\%
-Adicional a todos estos procesos tambi\'en se tiene un proceso el cual maneja todos los gasto fijos que va teniendo la organizaci\'on tales como impuestos, servicios, todo estos se manejara tambi\'en en un \'unico reporte el cual contiene todo los gastos e inversiones y  ventas y ganancias dentro de toda la organizaci\'on.
-\\%
-\\%
-
+\end{itemize}
 %
-%\newpage%
-%\subsection{Diagramas de flujo}
-%\begin{figure}[htbp]
-%	\centering
-%		\includegraphics[width=0.60\textwidth]{images/cuadritoese.png}
-%	\caption{Proceso actual}
-%	\label{fig:cuadritoese}
-%\end{figure}%
+\subsection{Producci\'on:}En este proceso se ejecuta al tener todos los inventarios insumos, y as\'i empezar la producci\'on y toda la informaci\'on referente a la producci\'on es guardada en el inventario de producci\'on, en este proceso solo se encargara de convertir la materia prima en el producto.	%
+\\%
+\\%
+Al implementarse este sistema en este proceso tendr\'a varios controles, tales como: higiene de producto, mantenimiento de maquinaria. Al realizar todo este proceso podemos realizar los reportes por medio de graficas, estos reportes realizados son de todas las sucursales y esto nos mostrara que sucursal es mas eficiente, cual puede estar en mucha perdida para si tomar decisiones con respecto a estos reportes como por ejemplo si una sucursal gr\'aficamente esta descendiendo se puede llegar a tomar una decisi\'on de cerrar la sucursal por p\'erdida.%
+\subsection{N\'omina:}en este proceso gestionara la nomina de los empleados, y as\'i tener un control apropiado a todos los empleados, como por ejemplo saber si un empleado esta cumpliendo con sus horas que se le asignan por mes y pagos realizados a los clientes, de este proceso tambi\'en se generan reportes para saber que tasa de inversi\'on se esta haciendo en los empleados.%
+\subsection{Ventas:}en este proceso se gestionara toda las ventas, cantidad vendida, pedidos dependiendo de la sucursal, cantidad de clientes por d\'ia, d\'ias mas rentables y toda esta estad\'istica se obtiene de este proceso que sirve para poder realizar cambios de atenci\'on o mejorar productos, dependiendo si esta llegando la cantidad suficiente de clientes, tambi\'en podemos saber que cliente es mas frecuente y asi poder dar beneficios adionales para mantener el cliente por mas tiempo. Tambi\'en se puede puede saber que sucursal tiene mas taza de clientes.%
+\\%
+\\%
+Adicional a todos estos procesos tambi\'en se tiene un proceso el cual maneja todos los gasto fijos que va teniendo la organizaci\'on tales como impuestos, servicios, todo estos se manejara tambi\'en en un \'unico reporte el cual contiene todo los gastos e inversiones y  ventas y ganancias dentro de toda la organizaci\'on.%
+\\%
+\\%
+\section{Marco Referencial}
 %
-%\newpage%
-%\section{Identificaci\'on de requerimientos}
-%\subsection{Requerimientos no funcionales}
-%\begin{figure}[htbp]
-%	\centering
-%		\includegraphics[width=1.00\textwidth]{images/nofuncionales.png}
-%	\caption{Requerimientos no funcionales}
-%	\label{fig:reqnofuncionales}
-%\end{figure}%
+\textbf{ERP}%
+\\%
+Enterprise Resource Planning, es una soluci\'on en sistemas de informaci\'on que automatiza e integra  los procesos de la organizaci\'on. Estos sistemas unen y sincronizan todas las operaciones de la organizaci\'on, tambi\'en permitiendo tener una conexi\'on entre la empresa con sus clientes y proveedores.%
+\\%
+\\%
+Permite una interfaz con el usuario para ejecutar las transacciones de la empresa y bases de datos centralizada para almacenar toda la informaci\'on. Se consideran como la integraci\'on de los diferentes sistemas de informaci\'on en todas las \'areas de las empresas.%
+\\%
+\\%
+Un ERP permite:%
+\\%
+\begin{itemize}
+	\item Control,Gesti\'on y planeaci\'on de recursos.
+	\item Planeaci\'on de productos.
+	\item Gesti\'on de costos.
+	\item Manejos de inventarios.
+	\item F\'acil acceso a proveedores.
+	\item Manejo de insumo.
+\end{itemize}
 %
-%\newpage%
-%\subsection{Requerimientos funcionales}
-%\begin{figure}[htbp]
-%	\centering
-%		\includegraphics[width=1.00\textwidth]{images/funcionales.png}
-%	\caption{Requerimientos funcionales}
-%	\label{fig:reqfuncionales}
-%\end{figure}%
+El ERP consta de un flujo constante de informaci\'on entre las \'areas de la organizaci\'on las cuales tendr\'an un trabajo individual pero al mismo tiempo una coordinaci\'on e integraci\'on de los procesos que conforman el ERP.%
+\\%
+\section{ERP como soluci\'on adecuada}
 %
-%\newpage%
-%\section{Priorizaci\'on de requerimientos del sistema}
-%\begin{figure}[htbp]
-%	\centering
-%		\includegraphics[width=1.00\textwidth]{images/requerimientossitema.png}
-%	\caption{Requerimientos del sistema}
-%	\label{fig:reqsistema}
-%\end{figure}%
+La necesidad del negocio se puede resumir en los siguientes puntos:%
+%
+\begin{itemize}
+\item Gesti\'on y soporte de los procesos para optimizaci\'on constante.
+\item Control y seguimiento para permitir toma de desiciones.
+\item Interconexi\'on e interoperabilidad entre las sucursales.
+\end{itemize}
+%
+Teniendo en cuenta esto, la soluci\'on m\'as acertada es la implementaci\'on de un ERP, debido a las caracter\'isticas mencionadas anteriormente.%
+\\%
+\\%
+Un sistema ERP permite gesti\'on unificada y descentralizada, permitiendo as\'i alcance a las sucursales sin traumatismos, permiti\'endoles ejercer como unidades independientes con un fin y una directriz en com\'un, con interacci\'on de forma asincr\'onica y en tiempo real, facilitando la gesti\'on y revisi\'on de los procesos.%
+Con la automatizaci\'on de nuestra empresa por medio del ERP buscaremos:
+%
+\begin{itemize}
+	\item Mejorar el flujo de procesos. 
+	\item Obtener un mejor an\'alisis y respuestas.
+	\item Disminuir costos de producci\'on y gesti\'on de inventario.
+	\item Facilitar el servicio al cliente.
+	\item Tener un control de insumos necesarios.
+\end{itemize}
+%
+Despu\'es de un determinado tiempo de automatizar la organizaci\'on por medio del ERP, se obtendr\'an resultados y se puede justificar los costos de inversi\'on obteniendo como resultados, mejora de procesos y tiempos de entregas, reduciendo as\'i mismo, tiempo de espera  aumentando as\'i las ventas por un mejor servicio a los clientes y se puede lograr una mayor competitividad  en el mercado adem\'as, se logra un incremento notorio de precisi\'on de inventario y mejor gesti\'on de recursos.%
+\\%
+\\%
+Al ser un medio tecnol\'ogico se busca tener el f\'acil acceso y ejecuci\'on de los usuarios as\'i mismo, los empleados tendr\'an una capacitaci\'on de c\'omo implementar esta nueva tecnolog\'ia ya que se le asignara responsabilidades m\'as grandes en la organizaci\'on. El ERP puede ser muy costoso al principio de su inversi\'on pero al manejar el f\'acil flujo de informaci\'on en los procesos de cada \'area de la empresa ser\'a una inversi\'on f\'acil de recuperar y de mejor proyecci\'on para su organizaci\'on.%

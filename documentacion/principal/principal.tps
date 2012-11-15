@@ -14,11 +14,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=casosdeuso.tex
+Document=input.tex
 
 [Frame0_View0,0]
-TopLine=0
-Cursor=53
+TopLine=41
+Cursor=1758
 
 [Frame1]
 Flags=0
@@ -32,11 +32,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=requerimientos.tex
+Document=casosdeuso.tex
 
 [Frame1_View0,0]
-TopLine=0
-Cursor=26
+TopLine=6
+Cursor=728
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=reportes.tex
+Document=principal.tex
 
 [Frame2_View0,0]
 TopLine=0
-Cursor=719
+Cursor=1033
 
 [Frame3]
 Flags=0
@@ -68,11 +68,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=analisis.tex
+Document=planeacion.tex
 
 [Frame3_View0,0]
 TopLine=0
-Cursor=34
+Cursor=278
 
 [Frame4]
 Flags=0
@@ -86,11 +86,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=principal.tex
+Document=comolasolucion.tex
 
 [Frame4_View0,0]
-TopLine=27
-Cursor=1018
+TopLine=0
+Cursor=161
 
 [Frame5]
 Flags=0
@@ -122,11 +122,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=comolasolucion.tex
+Document=analisis.tex
 
 [Frame6_View0,0]
-TopLine=0
-Cursor=161
+TopLine=6
+Cursor=1205
 
 [Frame7]
 Flags=0
@@ -140,11 +140,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=planeacion.tex
+Document=reportes.tex
 
 [Frame7_View0,0]
 TopLine=0
-Cursor=278
+Cursor=716
 
 [Frame8]
 Flags=0
@@ -158,11 +158,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=title.tex
+Document=requerimientos.tex
 
 [Frame8_View0,0]
 TopLine=0
-Cursor=0
+Cursor=26
 
 [Frame9]
 Flags=0
@@ -212,11 +212,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=input.tex
+Document=title.tex
 
 [Frame11_View0,0]
-TopLine=41
-Cursor=1195
+TopLine=0
+Cursor=0
 
 [SessionInfo]
 FrameCount=12
