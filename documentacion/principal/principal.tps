@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=822
-NormalPos.bottom=367
+NormalPos.right=1395
+NormalPos.bottom=569
 Class=LaTeXView
-Document=analisis.tex
+Document=input.tex
 
 [Frame0_View0,0]
-TopLine=182
-Cursor=9136
+TopLine=41
+Cursor=1758
 
 [Frame1]
 Flags=0
@@ -29,14 +29,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=822
-NormalPos.bottom=367
+NormalPos.right=1395
+NormalPos.bottom=569
 Class=LaTeXView
-Document=comolasolucion.tex
+Document=casosdeuso.tex
 
 [Frame1_View0,0]
-TopLine=0
-Cursor=161
+TopLine=6
+Cursor=728
 
 [Frame2]
 Flags=0
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=822
-NormalPos.bottom=367
+NormalPos.right=1395
+NormalPos.bottom=569
 Class=LaTeXView
-Document=planeacion.tex
+Document=principal.tex
 
 [Frame2_View0,0]
 TopLine=0
-Cursor=278
+Cursor=1033
 
 [Frame3]
 Flags=0
@@ -65,14 +65,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=822
-NormalPos.bottom=367
+NormalPos.right=1395
+NormalPos.bottom=569
 Class=LaTeXView
-Document=problema.tex
+Document=planeacion.tex
 
 [Frame3_View0,0]
 TopLine=0
-Cursor=564
+Cursor=278
 
 [Frame4]
 Flags=0
@@ -83,14 +83,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=822
-NormalPos.bottom=367
+NormalPos.right=1395
+NormalPos.bottom=569
 Class=LaTeXView
-Document=title.tex
+Document=comolasolucion.tex
 
 [Frame4_View0,0]
 TopLine=0
-Cursor=0
+Cursor=161
 
 [Frame5]
 Flags=0
@@ -101,14 +101,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=822
-NormalPos.bottom=367
+NormalPos.right=1395
+NormalPos.bottom=569
 Class=LaTeXView
-Document=objetivos.tex
+Document=problema.tex
 
 [Frame5_View0,0]
 TopLine=0
-Cursor=410
+Cursor=0
 
 [Frame6]
 Flags=0
@@ -119,14 +119,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=822
-NormalPos.bottom=367
+NormalPos.right=1395
+NormalPos.bottom=569
 Class=LaTeXView
-Document=principal.tex
+Document=analisis.tex
 
 [Frame6_View0,0]
-TopLine=0
-Cursor=942
+TopLine=6
+Cursor=1205
 
 [Frame7]
 Flags=0
@@ -137,14 +137,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=822
-NormalPos.bottom=367
+NormalPos.right=1395
+NormalPos.bottom=569
 Class=LaTeXView
-Document=introduccion.tex
+Document=reportes.tex
 
 [Frame7_View0,0]
 TopLine=0
-Cursor=759
+Cursor=716
 
 [Frame8]
 Flags=0
@@ -155,16 +155,70 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
-NormalPos.right=822
-NormalPos.bottom=367
+NormalPos.right=1395
+NormalPos.bottom=569
 Class=LaTeXView
-Document=input.tex
+Document=requerimientos.tex
 
 [Frame8_View0,0]
-TopLine=49
-Cursor=1195
+TopLine=0
+Cursor=26
+
+[Frame9]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=32
+NormalPos.right=1395
+NormalPos.bottom=569
+Class=LaTeXView
+Document=objetivos.tex
+
+[Frame9_View0,0]
+TopLine=0
+Cursor=410
+
+[Frame10]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=32
+NormalPos.right=1395
+NormalPos.bottom=569
+Class=LaTeXView
+Document=introduccion.tex
+
+[Frame10_View0,0]
+TopLine=0
+Cursor=759
+
+[Frame11]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=32
+NormalPos.right=1395
+NormalPos.bottom=569
+Class=LaTeXView
+Document=title.tex
+
+[Frame11_View0,0]
+TopLine=0
+Cursor=0
 
 [SessionInfo]
-FrameCount=9
+FrameCount=12
 ActiveFrame=0
 

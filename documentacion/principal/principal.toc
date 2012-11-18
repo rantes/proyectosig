@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {4.2.1}?`Vale la pena trabajar en este proyecto?}{8}
 \contentsline {subsection}{\numberline {4.2.2}?`Solucionar\'a los problemas?}{8}
 \contentsline {subsection}{\numberline {4.2.3}Agregar valor al proceso}{8}
-\contentsline {section}{\numberline {4.3}Dominio del problema}{9}
+\contentsline {section}{\numberline {4.3}Dominio del problema}{8}
 \contentsline {section}{\numberline {4.4}An\'alisis de los procesos del negocio}{9}
 \contentsline {subsection}{\numberline {4.4.1}Inventarios:}{9}
 \contentsline {subsection}{\numberline {4.4.2}Producci\'on:}{11}
@@ -30,4 +30,15 @@
 \contentsline {subsection}{\numberline {4.4.4}Ventas:}{11}
 \contentsline {section}{\numberline {4.5}Marco Referencial}{11}
 \contentsline {section}{\numberline {4.6}ERP como soluci\'on adecuada}{12}
-\contentsline {chapter}{\numberline {5}Reportes}{14}
+\contentsline {chapter}{\numberline {5}Requerimientos}{15}
+\contentsline {section}{\numberline {5.1}Analisis de requerimientos}{15}
+\contentsline {section}{\numberline {5.2}Analisis de requerimientos}{16}
+\contentsline {subsection}{\numberline {5.2.1}Requerimientos generales}{16}
+\contentsline {subsection}{\numberline {5.2.2}Requerimientos b\'asicos}{17}
+\contentsline {section}{\numberline {5.3}Requerimientos funcionales}{17}
+\contentsline {section}{\numberline {5.4}Priorizar los requerimientos del sistema}{18}
+\contentsline {chapter}{\numberline {6}Casos de uso}{19}
+\contentsline {section}{\numberline {6.1}caso de uso insumos}{19}
+\contentsline {chapter}{\numberline {7}ERP como soluci\'on adecuada}{23}
+\contentsline {chapter}{\numberline {8}Marco Referencial}{24}
+\contentsline {chapter}{\numberline {9}Reportes}{27}
