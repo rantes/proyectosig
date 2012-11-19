@@ -16,27 +16,26 @@
 \contentsline {subsection}{\numberline {3.2.1}Incentivos empleados:}{6}
 \contentsline {subsection}{\numberline {3.2.2}Degustaciones:}{6}
 \contentsline {subsection}{\numberline {3.2.3}Bonos y Rifas:}{6}
-\contentsline {chapter}{\numberline {4}An\'alisis del sistema}{7}
-\contentsline {section}{\numberline {4.1}Identificaci\'on de problemas y oportunidades b\'asicas}{7}
-\contentsline {section}{\numberline {4.2}Evaluaci\'on del beneficio del proyecto}{7}
-\contentsline {subsection}{\numberline {4.2.1}?`Vale la pena trabajar en este proyecto?}{8}
-\contentsline {subsection}{\numberline {4.2.2}?`Solucionar\'a los problemas?}{8}
-\contentsline {subsection}{\numberline {4.2.3}Agregar valor al proceso}{8}
-\contentsline {section}{\numberline {4.3}Dominio del problema}{8}
-\contentsline {section}{\numberline {4.4}An\'alisis de los procesos del negocio}{9}
-\contentsline {subsection}{\numberline {4.4.1}Campa\~nas:}{9}
-\contentsline {subsection}{\numberline {4.4.2}Satisfacci\'on al cliente:}{9}
-\contentsline {section}{\numberline {4.5}Marco Referencial}{9}
-\contentsline {section}{\numberline {4.6}CRM como soluci\'on adecuada}{10}
-\contentsline {chapter}{\numberline {5}Requerimientos}{13}
-\contentsline {section}{\numberline {5.1}Analisis de requerimientos}{13}
-\contentsline {section}{\numberline {5.2}Analisis de requerimientos}{14}
-\contentsline {subsection}{\numberline {5.2.1}Requerimientos generales}{14}
+\contentsline {section}{\numberline {3.3}Cronograma}{6}
+\contentsline {chapter}{\numberline {4}An\'alisis del sistema}{8}
+\contentsline {section}{\numberline {4.1}Identificaci\'on de problemas y oportunidades b\'asicas}{8}
+\contentsline {section}{\numberline {4.2}Evaluaci\'on del beneficio del proyecto}{8}
+\contentsline {subsection}{\numberline {4.2.1}?`Vale la pena trabajar en este proyecto?}{9}
+\contentsline {subsection}{\numberline {4.2.2}?`Solucionar\'a los problemas?}{9}
+\contentsline {subsection}{\numberline {4.2.3}Agregar valor al proceso}{9}
+\contentsline {section}{\numberline {4.3}Dominio del problema}{9}
+\contentsline {section}{\numberline {4.4}An\'alisis de los procesos del negocio}{10}
+\contentsline {subsection}{\numberline {4.4.1}Campa\~nas:}{10}
+\contentsline {subsection}{\numberline {4.4.2}Satisfacci\'on al cliente:}{10}
+\contentsline {section}{\numberline {4.5}Marco Referencial}{10}
+\contentsline {section}{\numberline {4.6}CRM como soluci\'on adecuada}{11}
+\contentsline {chapter}{\numberline {5}Requerimientos}{14}
+\contentsline {section}{\numberline {5.1}Analisis de requerimientos}{14}
+\contentsline {section}{\numberline {5.2}Analisis de requerimientos}{15}
+\contentsline {subsection}{\numberline {5.2.1}Requerimientos generales}{15}
 \contentsline {subsection}{\numberline {5.2.2}Requerimientos b\'asicos}{15}
-\contentsline {section}{\numberline {5.3}Requerimientos funcionales}{15}
-\contentsline {section}{\numberline {5.4}Priorizar los requerimientos del sistema}{16}
+\contentsline {section}{\numberline {5.3}Requerimientos funcionales}{16}
 \contentsline {chapter}{\numberline {6}Casos de uso}{17}
-\contentsline {section}{\numberline {6.1}caso de uso insumos}{17}
-\contentsline {chapter}{\numberline {7}ERP como soluci\'on adecuada}{21}
-\contentsline {chapter}{\numberline {8}Marco Referencial}{22}
-\contentsline {chapter}{\numberline {9}Reportes}{25}
+\contentsline {chapter}{\numberline {7}ERP como soluci\'on adecuada}{20}
+\contentsline {chapter}{\numberline {8}Marco Referencial}{21}
+\contentsline {chapter}{\numberline {9}Reportes}{24}

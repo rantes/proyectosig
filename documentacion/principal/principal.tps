@@ -14,11 +14,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=analisis.tex
+Document=requerimientos.tex
 
 [Frame0_View0,0]
-TopLine=43
-Cursor=5297
+TopLine=0
+Cursor=289
 
 [Frame1]
 Flags=0
@@ -32,11 +32,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=input.tex
+Document=analisis.tex
 
 [Frame1_View0,0]
-TopLine=6
-Cursor=625
+TopLine=116
+Cursor=9192
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=casosdeuso.tex
+Document=myblib.tex
 
 [Frame2_View0,0]
-TopLine=6
-Cursor=728
+TopLine=0
+Cursor=332
 
 [Frame3]
 Flags=0
@@ -68,11 +68,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=principal.tex
+Document=input.tex
 
 [Frame3_View0,0]
-TopLine=0
-Cursor=1033
+TopLine=6
+Cursor=625
 
 [Frame4]
 Flags=0
@@ -86,11 +86,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=planeacion.tex
+Document=casosdeuso.tex
 
 [Frame4_View0,0]
-TopLine=0
-Cursor=278
+TopLine=6
+Cursor=728
 
 [Frame5]
 Flags=0
@@ -104,11 +104,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=comolasolucion.tex
+Document=principal.tex
 
 [Frame5_View0,0]
 TopLine=0
-Cursor=161
+Cursor=1033
 
 [Frame6]
 Flags=0
@@ -122,11 +122,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=problema.tex
+Document=planeacion.tex
 
 [Frame6_View0,0]
 TopLine=0
-Cursor=0
+Cursor=278
 
 [Frame7]
 Flags=0
@@ -140,11 +140,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=reportes.tex
+Document=comolasolucion.tex
 
 [Frame7_View0,0]
 TopLine=0
-Cursor=716
+Cursor=161
 
 [Frame8]
 Flags=0
@@ -158,11 +158,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=requerimientos.tex
+Document=problema.tex
 
 [Frame8_View0,0]
 TopLine=0
-Cursor=26
+Cursor=0
 
 [Frame9]
 Flags=0
@@ -176,11 +176,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=objetivos.tex
+Document=reportes.tex
 
 [Frame9_View0,0]
 TopLine=0
-Cursor=410
+Cursor=716
 
 [Frame10]
 Flags=0
@@ -194,11 +194,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=introduccion.tex
+Document=objetivos.tex
 
 [Frame10_View0,0]
 TopLine=0
-Cursor=580
+Cursor=410
 
 [Frame11]
 Flags=0
@@ -212,13 +212,31 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=title.tex
+Document=introduccion.tex
 
 [Frame11_View0,0]
+TopLine=0
+Cursor=580
+
+[Frame12]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=32
+NormalPos.right=1395
+NormalPos.bottom=569
+Class=LaTeXView
+Document=title.tex
+
+[Frame12_View0,0]
 TopLine=0
 Cursor=0
 
 [SessionInfo]
-FrameCount=12
+FrameCount=13
 ActiveFrame=0
 
