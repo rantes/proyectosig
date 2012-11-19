@@ -12,35 +12,27 @@
 \contentsline {subsection}{\numberline {3.1.1}Misi\'on}{4}
 \contentsline {subsection}{\numberline {3.1.2}Visi\'on}{4}
 \contentsline {subsection}{\numberline {3.1.3}Valores}{4}
-\contentsline {section}{\numberline {3.2}Plan estr\'ategico de ventas}{4}
-\contentsline {subsection}{\numberline {3.2.1}Incentivos empleados:}{6}
-\contentsline {subsection}{\numberline {3.2.2}Degustaciones:}{6}
-\contentsline {subsection}{\numberline {3.2.3}Bonos y Rifas:}{6}
-\contentsline {section}{\numberline {3.3}Cronograma}{6}
-\contentsline {chapter}{\numberline {4}An\'alisis del sistema}{8}
-\contentsline {section}{\numberline {4.1}Identificaci\'on de problemas y oportunidades b\'asicas}{8}
-\contentsline {section}{\numberline {4.2}Evaluaci\'on del beneficio del proyecto}{8}
-\contentsline {subsection}{\numberline {4.2.1}?`Vale la pena trabajar en este proyecto?}{9}
-\contentsline {subsection}{\numberline {4.2.2}?`Solucionar\'a los problemas?}{9}
-\contentsline {subsection}{\numberline {4.2.3}Agregar valor al proceso}{9}
-\contentsline {section}{\numberline {4.3}Dominio del problema}{9}
-\contentsline {section}{\numberline {4.4}An\'alisis de los procesos del negocio}{10}
-\contentsline {subsection}{\numberline {4.4.1}Campa\~nas:}{10}
-\contentsline {subsection}{\numberline {4.4.2}Satisfacci\'on al cliente:}{10}
-\contentsline {section}{\numberline {4.5}Marco Referencial}{10}
-\contentsline {subsubsection}{CRM}{10}
-\contentsline {section}{\numberline {4.6}CRM como soluci\'on adecuada}{11}
-\contentsline {chapter}{\numberline {5}Requerimientos}{13}
-\contentsline {section}{\numberline {5.1}Analisis de requerimientos}{13}
-\contentsline {section}{\numberline {5.2}Analisis de requerimientos}{14}
-\contentsline {subsection}{\numberline {5.2.1}Requerimientos generales}{14}
-\contentsline {subsubsection}{?`Qu\'e es lo que se hace?}{14}
-\contentsline {subsubsection}{?`C\'omo se hace?}{14}
-\contentsline {subsubsection}{?`Con qu\'e frecuencia se realiza?}{14}
-\contentsline {subsubsection}{?'Cu\'al es el grado de eficiencia con el que se efect\'uan las tareas?}{14}
-\contentsline {subsection}{\numberline {5.2.2}Requerimientos b\'asicos}{14}
-\contentsline {subsubsection}{?'Cu\'al es el proceso b\'asico de la empresa?}{14}
-\contentsline {subsubsection}{?'Qu\'e controles de desempe\~no utiliza?}{15}
-\contentsline {section}{\numberline {5.3}Requerimientos funcionales}{15}
-\contentsline {chapter}{\numberline {6}Casos de uso}{16}
-\contentsline {chapter}{\numberline {7}Reportes}{19}
+\contentsline {chapter}{\numberline {4}An\'alisis del sistema}{5}
+\contentsline {section}{\numberline {4.1}Identificaci\'on de problemas y oportunidades b\'asicas}{5}
+\contentsline {section}{\numberline {4.2}Evaluaci\'on del beneficio del proyecto}{5}
+\contentsline {subsection}{\numberline {4.2.1}?`Vale la pena trabajar en este proyecto?}{5}
+\contentsline {subsection}{\numberline {4.2.2}?`Solucionar\'a los problemas?}{5}
+\contentsline {subsection}{\numberline {4.2.3}?`Agregar\'a valor al proceso?}{6}
+\contentsline {section}{\numberline {4.3}Dominio del problema}{6}
+\contentsline {section}{\numberline {4.4}An\'alisis de los procesos del negocio}{6}
+\contentsline {subsection}{\numberline {4.4.1}Campa\~nas:}{6}
+\contentsline {subsection}{\numberline {4.4.2}Satisfacci\'on al cliente:}{7}
+\contentsline {section}{\numberline {4.5}Marco Referencial}{7}
+\contentsline {subsubsection}{CRM}{7}
+\contentsline {subsubsection}{Metolog\'ia de desarrollo \'agil }{8}
+\contentsline {subsubsection}{Community Manager}{8}
+\contentsline {section}{\numberline {4.6}CRM como soluci\'on adecuada}{9}
+\contentsline {chapter}{\numberline {5}Requerimientos}{10}
+\contentsline {section}{\numberline {5.1}An\'alisis de requerimientos}{10}
+\contentsline {subsubsection}{?`Cu\'al es la finalidad de esta actividad dentro de la empresa?}{10}
+\contentsline {subsubsection}{?`Qu\'e pasos se siguen para llevarla a cabo?}{10}
+\contentsline {subsubsection}{?`D\'onde se realizan estos pasos?}{10}
+\contentsline {subsubsection}{?`Cu\'anto tiempo tardan en efectuarlos?}{10}
+\contentsline {subsubsection}{?`Con cuanta frecuencia lo hacen?}{10}
+\contentsline {subsubsection}{?`Qui\'enes emplean la informaci\'on resultante?}{10}
+\contentsline {chapter}{\numberline {6}Casos de uso}{11}

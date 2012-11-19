@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.8)  19 NOV 2012 12:08
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.8)  19 NOV 2012 16:10
 entering extended mode
  %&-line parsing enabled.
 **principal.tex
@@ -222,12 +222,8 @@ Package: titlesec 2007/08/12 v2.8 Sectioning titles
 (/usr/share/texmf-texlive/tex/latex/titlesec/block.tss
 File: block.tss 2007/08/12
 )) (./principal.aux
-(./introduccion.aux) (./problema.aux) (./objetivos.aux) (./planeacion.aux
-
-LaTeX Warning: Label `fig:Cronograma' multiply defined.
-
-) (./analisis.aux) (./requerimientos.aux) (./casosdeuso.aux)
-(./comolasolucion.aux) (./reportes.aux) (./myblib.aux))
+(./introduccion.aux) (./problema.aux) (./objetivos.aux) (./planeacion.aux)
+(./analisis.aux) (./requerimientos.aux) (./casosdeuso.aux) (./myblib.aux))
 \openout1 = `principal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -315,6 +311,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--21
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--21
+
+ []
+
 <images/header.png, id=8, 564.1075pt x 83.31125pt>
 File: images/header.png Graphic file (type png)
  <use images/header.png>
@@ -383,11 +389,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--11
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--23
 
  []
@@ -434,15 +435,9 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 
  (./planeacion.tex
  3.
-<images/Dibujo.jpg, id=32, 385.44pt x 462.528pt>
-File: images/Dibujo.jpg Graphic file (type jpg)
- <use images/Dibujo.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-
- []
-
+)
 File: images/header.png Graphic file (type png)
-<use images/header.png>
+ <use images/header.png>
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
@@ -452,35 +447,6 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
 
 
 ]
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[5 <./images/Dibujo.jpg>]
-<images/cronograma1.jpg, id=42, 962.99776pt x 291.489pt>
-File: images/cronograma1.jpg Graphic file (type jpg)
-
-<use images/cronograma1.jpg>
-<images/cronograma2.jpg, id=43, 501.67426pt x 249.3315pt>
-File: images/cronograma2.jpg Graphic file (type jpg)
-
-<use images/cronograma2.jpg>)
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[6 <./images/cronograma1.jpg>]
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[7 <./images/cronograma2.jpg>]
 \openout2 = `analisis.aux'.
 
  (./analisis.tex
@@ -496,16 +462,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-<images/Eficienciadelasucursal.jpg, id=50, 522.753pt x 330.63525pt>
-File: images/Eficienciadelasucursal.jpg Graphic file (type jpg)
 
-<use images/Eficienciadelasucursal.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
@@ -515,127 +478,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[8
-
-
-
- <./images/Eficienciadelasucursal.jpg>]
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 60--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--68
-
- []
-
-File: images/header.png Graphic file (type png)
-<use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 86--93
-
- []
-
-File: images/header.png Graphic file (type png)
-<use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[11])
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[12]
-\openout2 = `requerimientos.aux'.
-
- (./requerimientos.tex
- 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--37
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: images/header.png Graphic file (type png)
-
-<use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[13
+[5
 
 
 
@@ -646,43 +489,93 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[14] <images/requerimientosfuncionales.jpg, id=74, 452.892pt x 179.4705pt>
-File: images/requerimientosfuncionales.jpg Graphic file (type jpg)
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 47--55
 
-<use images/requerimientosfuncionales.jpg>
-<images/requerimientosnofuncionales.jpg, id=75, 398.6895pt x 93.951pt>
-File: images/requerimientosnofuncionales.jpg Graphic file (type jpg)
+ []
 
-<use images/requerimientosnofuncionales.jpg>
-<images/requerimientos.jpg, id=76, 399.29175pt x 222.8325pt>
-File: images/requerimientos.jpg Graphic file (type jpg)
 
-<use images/requerimientos.jpg>)
+Underfull \hbox (badness 10000) in paragraph at lines 47--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--55
+
+ []
+
+File: images/header.png Graphic file (type png)
+<use images/header.png>
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 64--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--72
+
+ []
+
+
+Underfull \vbox (badness 1661) has occurred while \output is active []
+
+File: images/header.png Graphic file (type png)
+
+<use images/header.png>
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 83--90
+
+ []
+
+)
 File: images/header.png Graphic file (type png)
  <use images/header.png>
 Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[15 <./images/requerimientosfuncionales.jpg> <./images/requerimientosnofunciona
-les.jpg> <./images/requerimientos.jpg>]
+[9]
+\openout2 = `requerimientos.aux'.
+
+ (./requerimientos.tex
+ 5.
+)
+File: images/header.png Graphic file (type png)
+ <use images/header.png>
+Overfull \hbox (2.56078pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[10
+
+
+
+]
 \openout2 = `casosdeuso.aux'.
 
  (./casosdeuso.tex
  6.
-<images/casoinsumosgrafico.jpg, id=80, 421.575pt x 286.06876pt>
+<images/casoinsumosgrafico.jpg, id=55, 421.575pt x 286.06876pt>
 File: images/casoinsumosgrafico.jpg Graphic file (type jpg)
 
 <use images/casoinsumosgrafico.jpg>
-<images/casoinsumotabla.jpg, id=81, 435.42674pt x 378.81525pt>
+<images/casoinsumotabla.jpg, id=56, 435.42674pt x 378.81525pt>
 File: images/casoinsumotabla.jpg Graphic file (type jpg)
 
 <use images/casoinsumotabla.jpg>
-<images/casoproducciongrafico.jpg, id=82, 426.393pt x 308.352pt>
+<images/casoproducciongrafico.jpg, id=57, 426.393pt x 308.352pt>
 File: images/casoproducciongrafico.jpg Graphic file (type jpg)
 
 <use images/casoproducciongrafico.jpg>
-<images/casoproducciontabla.jpg, id=83, 435.42674pt x 367.3725pt>
+<images/casoproducciontabla.jpg, id=58, 435.42674pt x 367.3725pt>
 File: images/casoproducciontabla.jpg Graphic file (type jpg)
 
 <use images/casoproducciontabla.jpg>)
@@ -692,7 +585,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[16
+[11
 
 
 
@@ -703,7 +596,7 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[17 <./images/casoinsumotabla.jpg> <./images/casoproducciongrafico.jpg>]
+[12 <./images/casoinsumotabla.jpg> <./images/casoproducciongrafico.jpg>]
 File: images/header.png Graphic file (type png)
 
 <use images/header.png>
@@ -711,34 +604,10 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[18 <./images/casoproducciontabla.jpg>]
-\openout2 = `reportes.aux'.
+[13 <./images/casoproducciontabla.jpg>]
+\openout2 = `conclusiones.aux'.
 
- (./reportes.tex
- 7.
-<images/REPORTEINSUMOS.jpg, id=93, 411.33675pt x 232.4685pt>
-File: images/REPORTEINSUMOS.jpg Graphic file (type jpg)
-
-<use images/REPORTEINSUMOS.jpg>
-<images/REPORTEVENTASGENERAL.jpg, id=94, 411.939pt x 233.07076pt>
-File: images/REPORTEVENTASGENERAL.jpg Graphic file (type jpg)
-
-<use images/REPORTEVENTASGENERAL.jpg>
-<images/REPORTEVENTASSUCURSAL.jpg, id=95, 462.528pt x 322.806pt>
-File: images/REPORTEVENTASSUCURSAL.jpg Graphic file (type jpg)
-
-<use images/REPORTEVENTASSUCURSAL.jpg>)
-File: images/header.png Graphic file (type png)
- <use images/header.png>
-Overfull \hbox (2.56078pt too wide) has occurred while \output is active
- [][]| 
- []
-
-[19
-
-
-
- <./images/REPORTEINSUMOS.jpg> <./images/REPORTEVENTASGENERAL.jpg>]
+ (./conclusiones.tex)
 File: images/header.png Graphic file (type png)
 
 <use images/header.png>
@@ -746,7 +615,11 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[20 <./images/REPORTEVENTASSUCURSAL.jpg>]
+[14
+
+
+
+]
 \openout2 = `myblib.aux'.
 
  (./myblib.tex
@@ -756,9 +629,9 @@ e Con-sul-ta-do en Noviem-bre 2012
  []
 
 
-Overfull \hbox (9.12624pt too wide) in paragraph at lines 4--5
-[]\OT1/cmr/m/n/12 http://es.wikipedia.org/wiki/Sistema[]de[]planificaci^^Son[]d
-e[]recursos[]empresariales Con-sul-
+Overfull \hbox (6.84184pt too wide) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/12 http://es.wikipedia.org/wiki/Responsable[]de[]comunidad Con-s
+ul-ta-do en Noviem-bre 2012 
  []
 
 )
@@ -768,35 +641,31 @@ Overfull \hbox (2.56078pt too wide) has occurred while \output is active
  [][]| 
  []
 
-[21
+[15
 
 
 
 ] (./principal.aux (./introduccion.aux) (./problema.aux) (./objetivos.aux)
 (./planeacion.aux) (./analisis.aux) (./requerimientos.aux) (./casosdeuso.aux)
-(./reportes.aux) (./myblib.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./conclusiones.aux) (./myblib.aux)) ) 
 Here is how much of TeX's memory you used:
- 4429 strings out of 495061
- 61580 string characters out of 1182622
- 131956 words of memory out of 3000000
- 7470 multiletter control sequences out of 15000+50000
+ 4368 strings out of 495061
+ 59780 string characters out of 1182622
+ 131237 words of memory out of 3000000
+ 7423 multiletter control sequences out of 15000+50000
  11966 words of font info for 44 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,14n,43p,983b,575s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pf
-b>
-Output written on principal.pdf (26 pages, 1577239 bytes).
+ 38i,13n,43p,989b,561s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on principal.pdf (20 pages, 608442 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
