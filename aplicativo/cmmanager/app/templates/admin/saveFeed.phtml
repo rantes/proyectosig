@@ -1,0 +1,104 @@
+				<form name="fbFeed" id="fbFeed-<?=$this->feed->id;?>">
+					<div style="float:left;width:1000px;height:400px;overflow-y:scroll;">
+						<?=$this->feed->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div class="formblock">
+							<div class="content">
+								<div>ID de registro:</div>
+								<div><?=$this->feed->id;?></div>
+							</div>
+							<div class="content">
+								<div>Fecha de registro:</div>
+								<div><?=date('l d, M - Y H:i:s',$this->feed->created_at);?></div>
+							</div>
+							<? if($this->feed->updated_at > 0): ?>
+							<div class="content" style="float:right;">
+								<div>&Uacute;ltima actualizaci&oacute;n:</div>
+								<div><?=date('l d, M - Y H:i:s',$this->feed->updated_at);?></div>
+							</div>
+							<? endif; ?>
+						</div>
+						<div class="formblock">
+							<div style="float:left;">
+								<div class="content">
+									<div>Estado:</div>
+									<div><?=$this->feed->input_for(array('field'=>'stat_id','type'=>'select','first'=>'Seleccione...','list'=>$this->stats->toOptions()));?></div>
+								</div>
+								<div class="content" style="clear:left;">
+									<div>Cliente:</div>
+									<div><?=$this->feed->input_for(array('field'=>'client_id','type'=>'select','first'=>'Seleccione...','list'=>$this->clients->toOptions()));?></div>
+								</div>
+							</div>
+							<div class="content" style="height:10ex;">
+								<div>Pendientes:</div>
+								<div><?=$this->feed->input_for(array('field'=>'pending'));?></div>
+							</div>
+							<div style="float:left;">
+								<div class="content">
+									<div>Pais:</div>
+									<div><?=$this->feed->input_for(array('field'=>'country_id','type'=>'select','first'=>'Seleccione...','list'=>$this->countries->toOptions()));?></div>
+								</div>
+								<div class="content" style="clear:left;">
+									<div>Clasificacion:</div>
+									<div><?=$this->feed->input_for(array('field'=>'clasification_id','type'=>'select','list'=>$this->clasifications->toOptions()));?></div>
+								</div>
+							</div>
+							<div style="float:left;">
+								<div class="content">
+									<div>Nivel del mensaje:</div>
+									<div><?=$this->feed->input_for(array('field'=>'message_level','type'=>'select','first'=>'Seleccione...','list'=>$this->message_levels));?></div>
+								</div>
+								<div class="content" style="clear:left;">
+									<div>Intensidad del mensaje:</div>
+									<div>
+										<?=$this->feed->input_for(array('field'=>'qualify','type'=>'select','list'=>range(0,10)));?>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="formblock">
+							<div class="content">
+								<div>Tipo de publicaci&oacute;n:</div>
+								<div><?=$this->feed->feed_kind;?></div>
+							</div>
+							<div class="content">
+								<div>Red social:</div>
+								<div><?=$this->feed->social_network()->name;?></div>
+							</div>
+							<div class="content">
+								<div>Fan page:</div>
+								<div><?=$this->feed->fanpage()->name;?></div>
+							</div>
+							<? if($this->feed->feed_kind == 'feed'): ?>
+							<div class="content">
+								<div>Campa&ntilde;a:</div>
+								<div><?=$this->feed->input_for(array('field'=>'campaign_id','type'=>'select','first'=>'Seleccione...','list'=>$this->campaigns->toOptions()));?></div>
+							</div>
+							<? endif; ?>
+						</div>
+						<div class="formblock">
+							<div class="content">
+								<div>&iquest;Qui&eacute;n lo public&oacute;?:</div>
+								<div><?=$this->feed->from_name;?></div>
+							</div>
+							<div class="content">
+								<div>Tipo de mensaje:</div>
+								<div><?=$this->feed->input_for(array('field'=>'message_kind_id','type'=>'select','list'=>$this->message_kinds->toOptions()));?></div>
+							</div>
+							<div class="content">
+								<div>Lugar:</div>
+								<div><?=$this->feed->input_for(array('field'=>'place_id','type'=>'select','list'=>$this->places->toOptions()));?></div>
+							</div>
+							<div class="content" style="height:auto;clear:both;">
+								<div>Publicaci&oacute;n:</div><div id="toggle-message">ver/ocultar</div>
+								<div class="feed-content" id="feed-message"><?=$this->feed->content;?></div>
+							</div>
+						</div>
+						<div class="formblock">
+							<div class="content" style="height:10ex;">
+								<div>Observaciones:</div>
+								<div><?=$this->feed->input_for(array('field'=>'observations'));?></div>
+							</div>
+						</div>
+					</div>
+					<input type="hidden" name="feed[page_name]" value="<?=$this->full_current_page['name'];?>" />
+				</form>

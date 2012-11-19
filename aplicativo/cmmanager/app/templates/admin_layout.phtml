@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<base href="<?=INST_URI;?>" />
+	<meta charset="utf-8"/>
+
+	<title>Dashboard I Admin Panel</title>
+
+	<?=stylesheet_link_tag('adminlayout.css');?>
+	<link href="<?=INST_URI;?>plugins/jqi/impromptu.css" type="text/css" rel="stylesheet" media="all" />
+	<!--[if lt IE 9]>
+	<?=stylesheet_link_tag('ie.css');?>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<?=javascript_include_tag(array('jquery-1.6.4','hideshow','jquery.tablesorter','jquery.equalHeight','functions'));?>
+	<script src="<?=INST_URI;?>plugins/jqi/jquery-impromptu.3.1.min.js"></script>
+	<script type="text/javascript">
+	// global editions popups
+		function saveData(v,m,f){
+			switch(v){
+				case true:
+					/*var x = validateForm('PictureForm', false);
+					if( x === true){*/
+						jQuery.post("<?=INST_URI;?>admin/saveFeed/", f, function(data){
+							var resp = eval('('+data+')');
+							if(resp.success){
+								//location.reload();
+							} else {
+								alert(resp.reason);
+							}
+						});
+					/*}else{
+						$.prompt(x.message);
+						return false;
+					}*/
+				break;
+				case false:
+					return true;
+				break;
+			}
+		}
+		function loadForm(vars){
+			var url = vars.url;
+
+			jQuery.post(url, vars.params, function(data){
+				jQuery.prompt(data,{
+					buttons:{'Guardar':true, 'Cancelar':false},
+					prefix: 'widescreen',
+					submit: saveData
+				});
+			});
+		}
+	jQuery(document).ready(function($){
+		$(".tablesorter").tablesorter();
+		//When page loads...
+		$(".tab_content").hide(); //Hide all content
+		$("ul.tabs li:first").addClass("active").show(); //Activate first tab
+		$(".tab_content:first").show(); //Show first tab content
+
+		//On Click Event
+		$("ul.tabs li").click(function() {
+
+			$("ul.tabs li").removeClass("active"); //Remove any "active" class
+			$(this).addClass("active"); //Add "active" class to selected tab
+			$(".tab_content").hide(); //Hide all tab content
+
+			var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+			$(activeTab).fadeIn(); //Fade in the active ID content
+			return false;
+		});
+		$('.column').equalHeight();
+//////////////////
+	});
+	</script>
+	<style>
+	<!--
+	.formblock{
+		float:left;
+		width:100%;
+		clear:both;
+	}
+	.formblock .content{
+		float:left;
+		margin:5px;
+		margin-top:0px;
+		border:solid 1px #ffffff;
+		min-height:4.5ex;
+	}
+	.formblock .content div{
+		float:left;
+		margin:0px 5px;
+	}
+	.formblock .content .feed-content{
+		clear:both;
+		overflow-y:auto;
+		max-height:150px;
+		display:none;
+	}
+	#toggle-message{
+		height:4.5ex;
+		cursor:pointer;
+	}
+	#toggle-message:hover{
+		background-color:#cfcfcf;
+		color:#000000;
+	}
+	-->
+	</style>
+</head>
+
+
+<body>
+
+	<header id="header">
+		<hgroup>
+			<h1 class="site_title"><a href="index.html">Admin</a></h1>
+			<h2 class="section_title"><?=$this->title;?></h2>
+			<div class="btn_view_site"><?=link_to(array('Ver sitio','url'=>INST_URI));?></div>
+		</hgroup>
+	</header> <!-- end of header bar -->
+
+	<section id="secondary_bar">
+		<div class="user">
+			<p><?=$this->useractive->name;?></p>
+			<!-- <a class="logout_user" href="#" title="Logout">Logout</a> -->
+		</div>
+		<div class="breadcrumbs_container">
+			<article class="breadcrumbs">
+				<? 	if(_ACTION == 'index' and _CONTROLLER == 'admin'):
+						echo link_to(array('Admin', 'html'=>array('class'=>'current')));
+					else:
+						echo link_to(array('Admin', 'controller'=>'admin'));?>
+				<div class="breadcrumb_divider"></div>
+				<? 		echo link_to(array($this->title, 'html'=>array('class'=>'current')));
+					endif; ?>
+			</article>
+		</div>
+	</section><!-- end of secondary bar -->
+
+	<aside id="sidebar" class="column">
+		<form class="quick_search">
+			<input type="text" value="Quick Search" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
+		</form>
+		<hr/>
+		<? if(!empty($this->mainSocialNetworks)): ?>
+		<h3>Redes Sociales</h3>
+		<ul class="toggle">
+			<? foreach($this->mainSocialNetworks as $network): ?>
+			<li class="icn_new_article"><a href="#" rel="<?=$network->kind;?>" id="network-<?=$network->id;?>" class="network-selector" style="background-image:url(<?=$network->logo;?>);padding-left:35px;height:35px;"><?=$network->name;?></a></li>
+			<? endforeach; ?>
+		</ul>
+		<? endif; ?>
+		<? if(!empty($this->activefbpage)): ?>
+		<h3>Cuenta Activa</h3>
+		<ul class="toggle">
+			<li class="icn_new_article">
+				<a href="http://facebook.com/<?=$this->activefbpage->id;?>" style="background-image:url(http://graph.facebook.com/<?=$this->activefbpage->id;?>/picture);padding-left:50px;height:50px;"><?=$this->activefbpage->name;?></a>
+				<?=link_to(array('Ver Feeds','controller'=>'admin','action'=>'viewFbFeeds'));?>
+				<?=link_to(array('Ver Mensajes','controller'=>'admin','action'=>'viewFbMessages'));?>
+			</li>
+		</ul>
+		<? endif; ?>
+		<? if(!empty($this->fbpages['data'])): ?>
+		<h3>Fb Fan Pages</h3>
+		<ul class="toggle">
+			<a href="#" id="update-fan-pages">Actualizar Fan Pages</a>
+			<? foreach($this->fbpages['data'] as $fbpage): ?>
+			<li class="icn_new_article"><a href="<?=INST_URI;?>admin/setFbFanPage/?id=<?=$fbpage['id'];?>&token=<?=$fbpage['access_token'];?>" style="background-image:url(http://graph.facebook.com/<?=$fbpage['id'];?>/picture);padding-left:50px;height:50px;"><?=$fbpage['name'];?></a></li>
+			<? endforeach; ?>
+		</ul>
+		<? endif; ?>
+		<h3>Admin</h3>
+		<ul class="toggle">
+			<li class="icn_database"><?=link_to(array('Consola DB','controller'=>'console','action'=>'index'));?></li>
+			<li class="icn_categories"><?=link_to(array('Contenidos guardados','controller'=>'admin','action'=>'contents'));?></li>
+			<li class="icn_settings"><?=link_to(array('Par&aacute;metros','controller'=>'admin','action'=>'params'));?></li>
+			<li class="icn_view_users"><?=link_to(array('Managers','controller'=>'admin','action'=>'managers'));?></li>
+			<li class="icn_security"><a href="#">Security</a></li>
+			<li class="icn_jump_back"><a href="#">Logout</a></li>
+		</ul>
+
+		<footer>
+			<hr />
+			<p><strong>Copyright &copy; 2012</strong></p>
+			<p>Powered by +Turbo</p>
+		</footer>
+	</aside><!-- end of sidebar -->
+	<section id="main" class="column">
+	<?=$this->content;?>
+	</section>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('.network-selector').click(function(){
+		var id = $(this).attr('id').replace('network-','');
+		var social = $(this).attr('rel');
+		$.post('<?=INST_URI;?>admin/',{'setSocialNetwork':1,'network_id':id,'network':social},function(data){
+			var resp = eval('('+data+')');
+			if(resp.success){
+				location.reload();
+			} else {
+				location.href=resp.url;
+			}
+		});
+		return false;
+	});
+	//feeds
+	$('.feeds-paginate').live('click',function(){
+		var next = $(this).attr('rel');
+		$.post('<?=INST_URI;?>admin/<?=_ACTION;?>/',{'next':next},function(data){
+			$('#main').fadeOut();
+			$('#main').html(data);
+			$('#main').fadeIn();
+		});
+		return false;
+	});
+	$('.save-as-clasification').live('click',function(){
+		var clasification = $(this).attr('rel');
+		var feedId = $(this).attr('id').replace('link-to-save-'+clasification+'-','');
+		$('#clasification-hidden-'+feedId).val(clasification);
+		var vars = {'url':'<?=INST_URI;?>admin/saveFeed/?edit=1','params':$('#fbFeed-'+feedId).serialize()};
+		loadForm(vars);
+		$('#save-clasification-links-'+feedId).remove();
+		/*$.post('<?=INST_URI;?>admin/saveFeed/',$('#fbFeed-'+feedId).serialize(),function(data){
+			var resp = eval('('+data+')');
+			if(resp.success){
+				$('#save-clasification-links-'+feedId).remove();
+			} else {
+				alert(resp.reason);
+			}
+		});*/
+		return false;
+	});
+
+	$('.edit-popup').click(function(){
+		return false;
+	});
+	$('#update-fan-pages').click(function(){
+		$.post('<?=INST_URI;?>admin/',{'reloadFanPages':1},function(data){
+			location.reload();
+		});
+		return false;
+	});
+	$('#toggle-message').live('click',function(){
+		$('#feed-message').toggle();
+		return false;
+	});
+	//////////////////
+});
+</script>
+</body>
+
+</html>

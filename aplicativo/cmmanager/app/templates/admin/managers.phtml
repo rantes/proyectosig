@@ -1,0 +1,122 @@
+<style>
+header .button-header{
+	float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.button-header a{
+	color: #666666;
+    display: inline-block;
+    height: 17px;
+    line-height: 17px;
+    margin: 5px;
+    padding-left: 25px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+</style>
+<section id="main" class="column">
+	<h4 class="alert_info"></h4>
+	<article class="module width_full">
+		<header><h3 class="tabs_involved"><?=$this->title;?></h3>
+		<ul class="tabs">
+   			<li><a href="#tab1">Activos</a></li>
+    		<li><a href="#tab2">Inactivos</a></li>
+		</ul>
+		</header>
+
+		<div class="tab_container">
+			<div class="button-header"><a href="#" style="background: url('/manager/images/icn_settings.png') no-repeat scroll left center transparent;" id="add-manager-button">Agregar manager</a></div>
+			<div id="form-manager" style="clear:both;position:relative;">
+				<form name="manager" method="post" action="">
+					<div style="float:left;"><?=$this->manager->input_for(array('field'=>'name', 'html'=>array('placeholder'=>'Nombre')));?></div>
+					<div style="float:left;"><?=$this->manager->input_for(array('field'=>'email', 'html'=>array('placeholder'=>'Email')));?></div>
+					<div style="float:left;"><?=$this->manager->input_for(array('field'=>'profile_id','type'=>'select','first'=>'Seleccione...','list'=>$this->profiles->toOptions()));?></div>
+					<div style="float:left;"><?=$this->manager->input_for(array('field'=>'fb_profile', 'html'=>array('placeholder'=>'Perfil en facebook')));?></div>
+					<div style="float:left;"><?=$this->manager->input_for(array('field'=>'tw_profile', 'html'=>array('placeholder'=>'Perfil en twitter')));?></div>
+					<div style="float:left;"><?=$this->manager->input_for(array('field'=>'gplus_profile', 'html'=>array('placeholder'=>'Perfil en g+')));?></div>
+					<div style="float:left;">
+						<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+					</div>
+				</form>
+			</div>
+			<div id="tab1" class="tab_content">
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter">
+					<thead>
+						<tr>
+		   					<th></th>
+		    				<th>Nombre</th>
+		    				<th>Correo</th>
+		    				<th>Tipo de Perfil</th>
+		    				<th>Perfil en facebook</th>
+		    				<th>Perfil en twitter</th>
+		    				<th>Perfil en gplus</th>
+		    				<th>Created On</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->activemanagers as $user): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$user->name;?></td>
+		    				<td><?=$user->email;?></td>
+		    				<td><?=$user->profile()->name;?></td>
+		    				<td><?=$user->fb_profile;?></td>
+		    				<td><?=$user->tw_profile;?></td>
+		    				<td><?=$user->gplus_profile;?></td>
+		    				<td><?=date("d/m/Y",$user->created_at);?></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit">
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash">
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div><!-- end of #tab1 -->
+
+			<div id="tab2" class="tab_content">
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter">
+					<thead>
+						<tr>
+		   					<th></th>
+		    				<th>Nombre</th>
+		    				<th>Correo</th>
+		    				<th>Tipo de Perfil</th>
+		    				<th>Perfil en facebook</th>
+		    				<th>Perfil en twitter</th>
+		    				<th>Perfil en gplus</th>
+		    				<th>Created On</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->inactivemanagers as $user): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$user->name;?></td>
+		    				<td><?=$user->email;?></td>
+		    				<td><?=$user->profile()->name;?></td>
+		    				<td><?=$user->fb_profile;?></td>
+		    				<td><?=$user->tw_profile;?></td>
+		    				<td><?=$user->gplus_profile;?></td>
+		    				<td><?=date("d/m/Y",$user->created_at);?></td>
+		    				<td>
+		    					<input type="image" src="/images/icn_edit.png" title="Edit">
+		    					<input type="image" src="/images/icn_trash.png" title="Trash">
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div><!-- end of #tab2 -->
+
+		</div><!-- end of .tab_container -->
+
+		</article><!-- end of content manager article -->
+</section>

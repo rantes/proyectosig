@@ -1,0 +1,482 @@
+@charset "utf-8";
+/* CSS Document */
+
+.jqifade {
+	background-color: #AAAAAA;
+	position: absolute;
+}
+div.jqi {
+	-moz-border-radius: 10px 10px 10px 10px;
+	background-color: #040E1E;
+	border: 1px solid #EEEEEE;
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	padding: 7px;
+	position: absolute;
+	text-align: left;
+	width: 400px;
+}
+div.jqi .jqicontainer {
+	font-weight: bold;
+}
+div.jqi .jqiclose {
+	color: #BBBBBB;
+	cursor: default;
+	font-weight: bold;
+	position: absolute;
+	right: -2px;
+	top: 4px;
+	width: 18px;
+}
+div.jqi .jqimessage {
+	color: #FFFFFF;
+	line-height: 20px;
+	padding: 10px;
+}
+div.jqi .jqibuttons {
+	background-color: #040E1E;
+	padding: 5px 0;
+	text-align: right;
+}
+div.jqi button {
+	background-color: #2F6073;
+	border: 1px solid #F4F4F4;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 10px;
+	padding: 3px 10px;
+}
+div.jqi button:hover {
+	background-color: #728A8C;
+}
+div.jqi button.jqidefaultbutton {
+	background-color: #BF5E26;
+}
+.jqiwarning .jqi .jqibuttons {
+	background-color: #BF5E26;
+}
+.widescreenfade {
+	background-color: #AAAAAA;
+	position: absolute;
+}
+div.widescreen {
+	-moz-border-radius: 10px 10px 10px 10px;
+	background-color: #040E1E;
+	border: 1px solid #EEEEEE;
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	padding: 7px;
+	position: absolute;
+	text-align: left;
+	width:auto;
+}
+div.widescreen .widescreencontainer {
+	font-weight: bold;
+}
+div.widescreen .widescreenclose {
+	color: #BBBBBB;
+	cursor: default;
+	font-weight: bold;
+	position: absolute;
+	right: -2px;
+	top: 4px;
+	width: 18px;
+}
+div.widescreen .widescreenmessage {
+	color: #FFFFFF;
+	line-height: 20px;
+	padding: 10px;
+}
+div.widescreen .widescreenbuttons {
+	background-color: #040E1E;
+	padding: 5px 0;
+	text-align: right;
+}
+div.widescreen button {
+	background-color: #2F6073;
+	border: 1px solid #F4F4F4;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 10px;
+	padding: 3px 10px;
+}
+div.widescreen button:hover {
+	background-color: #728A8C;
+}
+div.widescreen button.widescreendefaultbutton {
+	background-color: #BF5E26;
+}
+.widescreenwarning .widescreen .widescreenbuttons {
+	background-color: #BF5E26;
+}
+.imagejqifade {
+	background-color: #AAAAAA;
+	position: absolute;
+}
+div.imagejqi {
+	-moz-border-radius: 10px 10px 10px 10px;
+	background-color: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	padding: 7px;
+	position: absolute;
+	text-align: left;
+	width: auto;
+}
+div.imagejqi img {
+	border: 2px solid #000000;
+}
+div.imagejqi .imagejqicontainer {
+	font-weight: bold;
+}
+div.imagejqi .imagejqiclose {
+	color: #BBBBBB;
+	cursor: default;
+	font-weight: bold;
+	position: absolute;
+	right: -2px;
+	top: 4px;
+	width: 18px;
+}
+div.imagejqi .imagejqimessage {
+	color: #444444;
+	line-height: 20px;
+	padding: 10px;
+}
+div.imagejqi .imagejqibuttons {
+	background-color: #F4F4F4;
+	border: 1px solid #EEEEEE;
+	padding: 5px 0;
+	text-align: right;
+}
+div.imagejqi button {
+	background-color: #2F6073;
+	border: 1px solid #F4F4F4;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 10px;
+	padding: 3px 10px;
+}
+div.imagejqi button:hover {
+	background-color: #728A8C;
+}
+div.imagejqi button.imagejqidefaultbutton {
+	background-color: #BF5E26;
+}
+.imagejqiwarning .imagejqi .imagejqibuttons {
+	background-color: #BF5E26;
+}
+.impromptuwarning .impromptu {
+	background-color: #AAAAAA;
+}
+.impromptufade {
+	background-color: #FFFFFF;
+	position: absolute;
+}
+div.impromptu {
+	background-color: #CCCCCC;
+	padding: 10px;
+	position: absolute;
+	text-align: left;
+	width: 300px;
+}
+div.impromptu .impromptuclose {
+	color: #213E80;
+	cursor: pointer;
+	float: right;
+	margin: -35px -10px 0 0;
+}
+div.impromptu .impromptucontainer {
+	background-color: #213E80;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 5px;
+}
+div.impromptu .impromptumessage {
+	background-color: #415EA0;
+	padding: 10px;
+}
+div.impromptu .impromptubuttons {
+	padding: 5px 0 0;
+	text-align: center;
+}
+div.impromptu button {
+	margin: 0 10px;
+	padding: 3px 10px;
+}
+.colsJqifadewarning .colsJqi {
+	background-color: #B0BE96;
+}
+.colsJqifade {
+	background-color: #FFFFFF;
+	position: absolute;
+}
+div.colsJqi {
+	background-color: #D0DEB6;
+	padding: 10px;
+	position: absolute;
+	text-align: left;
+	width: 400px;
+}
+div.colsJqi .colsJqiclose {
+	color: #BBBBBB;
+	cursor: pointer;
+	float: right;
+	margin: -35px -10px 0 0;
+}
+div.colsJqi .colsJqicontainer {
+	background-color: #E0EEC6;
+	color: #FFFFFF;
+	font-weight: bold;
+	height: 160px;
+	padding: 5px;
+}
+div.colsJqi .colsJqimessage {
+	background-color: #C0CEA6;
+	float: left;
+	height: 140px;
+	padding: 10px;
+	width: 280px;
+}
+div.colsJqi .jqibuttons {
+	padding: 5px 0 0;
+	text-align: center;
+}
+div.colsJqi button {
+	/*background: url("/images/button_bg.jpg") repeat-x scroll left top #FFFFFF;*/
+	border: 1px solid #777777;
+	font-size: 12px;
+	margin: 5px 5px 5px 10px;
+	padding: 3px 10px;
+	width: 75px;
+}
+div.colsJqi button:hover {
+	border: 1px solid #AAAAAA;
+}
+.brownJqiwarning .brownJqi {
+	background-color: #CCCCCC;
+}
+.brownJqifade {
+	background-color: #FFFFFF;
+	position: absolute;
+}
+div.brownJqi {
+	background-color: transparent;
+	padding: 10px;
+	position: absolute;
+	text-align: left;
+	width: 300px;
+}
+div.brownJqi .brownJqiclose {
+	color: #777777;
+	cursor: pointer;
+	float: right;
+	font-size: 11px;
+	margin: -20px 0 0;
+}
+div.brownJqi .brownJqicontainer {
+	background-color: transparent;
+	border: 1px solid #5F5D5A;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: relative;
+}
+div.brownJqi .brownJqimessage {
+	background-color: #F7F6F2;
+	border-bottom: 1px solid #C6B8AE;
+	border-top: 1px solid #C6B8AE;
+	position: relative;
+}
+div.brownJqi .brownJqimessage h3 {
+	/*background: url("/images/brown_theme_gradient.jpg") repeat-x scroll left top #FFFFFF;*/
+	color: #4D4A47;
+	margin: 0;
+	padding: 7px 0 7px 15px;
+}
+div.brownJqi .brownJqimessage p {
+	color: #777777;
+	padding: 10px;
+}
+div.brownJqi .brownJqimessage img.helpImg {
+	bottom: -25px;
+	left: 10px;
+	position: absolute;
+}
+div.brownJqi .brownJqibuttons {
+	text-align: right;
+}
+div.brownJqi button {
+	/*background: url("/images/brown_theme_gradient.jpg") repeat-x scroll left top #FFFFFF;*/
+	border: 1px solid #777777;
+	font-size: 12px;
+	margin: 5px 5px 5px 10px;
+	padding: 3px 10px;
+}
+div.brownJqi button:hover {
+	border: 1px solid #AAAAAA;
+}
+.cleanbluewarning .cleanblue {
+	background-color: #ACB4C4;
+}
+.cleanbluefade {
+	background-color: #AAAAAA;
+	position: absolute;
+}
+div.cleanblue {
+	background-color: #FFFFFF;
+	border: 1px solid #213E80;
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	position: absolute;
+	text-align: left;
+	width: 300px;
+}
+div.cleanblue .cleanbluecontainer {
+	background-color: #FFFFFF;
+	border-top: 14px solid #213E80;
+	font-weight: bold;
+	padding: 5px;
+}
+div.cleanblue .cleanblueclose {
+	color: #FFFFFF;
+	cursor: default;
+	float: right;
+	font-weight: bold;
+	margin: -19px -12px 0 0;
+	width: 18px;
+}
+div.cleanblue .cleanbluemessage {
+	color: #333333;
+	font-size: 11px;
+	line-height: 20px;
+	padding: 10px;
+}
+div.cleanblue .cleanbluebuttons {
+	background-color: #F4F4F4;
+	border: 1px solid #EEEEEE;
+	padding: 5px 0;
+	text-align: right;
+}
+div.cleanblue button {
+	background-color: #314E90;
+	border: 1px solid #F4F4F4;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 10px;
+	padding: 3px 10px;
+}
+div.cleanblue button:hover {
+	border: 1px solid #D4D4D4;
+}
+.extbluewarning .extblue {
+	border: 1px solid red;
+}
+.extbluefade {
+	background-color: #FFFFFF;
+	position: absolute;
+}
+div.extblue {
+	background-color: #CAD8EA;
+	border: 1px solid #6289B6;
+	padding: 0;
+	position: absolute;
+	text-align: left;
+	width: 300px;
+}
+div.extblue .extblueclose {
+	background-color: #CAD8EA;
+	color: red;
+	cursor: pointer;
+	margin: 2px -2px 0 0;
+	text-align: right;
+}
+div.extblue .extbluecontainer {
+	background-color: #CAD8EA;
+	color: #000000;
+	font: 11px Verdana;
+	padding: 0 5px 5px;
+}
+div.extblue .extbluemessage {
+	background-color: #CAD8EA;
+	margin: 0 15px 15px;
+	padding: 0;
+}
+div.extblue .extbluebuttons {
+	padding: 0 0 0;
+	text-align: center;
+}
+div.extblue button {
+	background-color: #CCCCCC;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	margin: 0 10px;
+	padding: 1px 4px;
+}
+.jqismoothfade {
+	background-color: #333333;
+	position: absolute;
+}
+div.jqismooth {
+	-moz-border-radius: 10px 10px 10px 10px;
+	background-color: #FFFFFF;
+	border: 3px solid #E2E8E6;
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	padding: 7px;
+	position: absolute;
+	text-align: left;
+	width: 350px;
+}
+div.jqismooth .jqismoothcontainer {
+	font-weight: bold;
+}
+div.jqismooth .jqismoothclose {
+	-moz-border-radius-bottomleft: 5px;
+	background-color: #E2E8E6;
+	border-bottom: 1px solid #E2E8E6;
+	border-left: 1px solid #E2E8E6;
+	color: #727876;
+	cursor: default;
+	font-weight: bold;
+	padding: 2px 0 4px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 18px;
+}
+div.jqismooth .jqismoothmessage {
+	color: #444444;
+	line-height: 20px;
+	padding: 10px;
+}
+div.jqismooth .jqismoothbuttons {
+	background-color: #F2F8F6;
+	border: 1px solid #E2E8E6;
+	padding: 5px 0;
+	text-align: right;
+}
+div.jqismooth button {
+	background-color: #2F6073;
+	border: 1px solid #F4F4F4;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 10px;
+	padding: 3px 10px;
+}
+div.jqismooth button:hover {
+	background-color: #728A8C;
+}
+div.jqismooth button.jqismoothdefaultbutton {
+	background-color: #BF5E26;
+}
+.jqismoothwarning .jqismooth .jqismoothbuttons {
+	background-color: #BF5E26;
+}

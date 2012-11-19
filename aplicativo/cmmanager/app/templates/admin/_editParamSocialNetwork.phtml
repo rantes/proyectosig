@@ -1,0 +1,28 @@
+						<?=$this->data->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div style="float:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">Nombre:</div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'name'));?></div>
+						</div>
+						<div style="float:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">Red Social:</div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'kind','type'=>'select','first'=>'Seleccione...','list'=>array('Facebook'=>'Facebook','Twitter'=>'Twitter')));?></div>
+						</div>
+						<div style="float:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">Public key:</div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'public_key'));?></div>
+						</div>
+						<div style="float:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">Private key:</div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'private_key'));?></div>
+						</div>
+						<div style="float:left;clear:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">App url:</div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'app_url'));?></div>
+						</div>
+						<div style="float:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">Logo:</div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'logo'));?></div>
+						</div>
+						<div style="float:left;">
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>

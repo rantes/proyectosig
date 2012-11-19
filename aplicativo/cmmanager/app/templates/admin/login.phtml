@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<base href="<?=INST_URI;?>" />
+	<meta charset="utf-8"/>
+
+	<title>Dashboard I Admin Panel</title>
+
+	<?=stylesheet_link_tag('adminlayout.css');?>
+	<!--[if lt IE 9]>
+	<?=stylesheet_link_tag('ie.css');?>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<?=javascript_include_tag(array('jquery-1.6.4','hideshow','jquery.tablesorter','jquery.equalHeight','functions'));?>
+</head>
+
+
+<body>
+<div style="float:none;margin:auto;">
+<form name="login" action="" method="post" id="login-form">
+	<input type="text" name="login[email]" placeholder="Email" />
+	<br />
+	<input type="password" name="login[password]" placeholder="Password" />
+	<br />
+	<input type="submit" value="login" />
+</form>
+</div>
+</body>
+</html>

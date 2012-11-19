@@ -1,0 +1,121 @@
+<?php
+
+/**
+ *
+ * Clase Page.
+ *
+ * Clase que administra los controladores.
+ *
+ * Se encarga de cargar todos los modelos y demas funciones generales.
+ * @author Javier Serrano
+ * @package Core
+ * @subpackage Controllers
+ * @Version 3.0 November 18 2009
+ */
+abstract class Page extends Core_General_Class{
+
+	protected $layout = "";
+	protected $render = NULL;
+	protected $flash = "";
+	protected $content = "";
+	protected $params = array();
+	protected $metaDescription = '';
+	protected $pageTitle = '';
+	protected $__controller = _CONTROLLER;
+	protected $__action = _ACTION;
+	private $_respondToAJAX = '';
+	private $_canrespondtoajax = false;
+
+	public function __construct(){
+		//loads of helpers
+	}
+
+	public function __get($var){
+		$model = unCamelize($var);
+		if(file_exists(INST_PATH.'app/models/'.$model.'.php')):
+			if(!class_exists($var)):
+				require INST_PATH.'app/models/'.$model.'.php';
+			endif;
+			$obj = new $var();
+			return $obj;
+		endif;
+	}
+	public function display($view){
+		$renderPage = TRUE;
+
+		if(property_exists($this, 'noTemplate') and in_array($view['action'], $this->noTemplate)) $renderPage = FALSE;
+
+		if(isset($this->render) and is_array($this->render)):
+			if(!empty($this->render['file'])):
+				$view = $this->render['file'];
+			elseif(!empty($this->render['partial'])):
+				$view = $view['controller'].'/_'.$this->render['partial'].'.phtml';
+			elseif(!empty($this->render['text'])):
+				$this->content = $this->render['text'];
+				$renderPage = FALSE;
+			elseif(!empty($this->render['action'])):
+				if(strpos($this->render['action'], '/') !== false):
+					//just in case of an outside action on another controller wanted to parse
+				else:
+					$this->{$this->render['action'].'Action'}();
+					$this->display(array('controller'=>$view['controller'],'action'=>$this->render['action']));
+					exit;
+				endif;
+			else:
+				$view = $view['controller'].'/'.$view['action'].'.phtml';
+			endif;
+		else:
+			$view = $view['controller'].'/'.$view['action'].'.phtml';
+		endif;
+
+		if($renderPage):
+			ob_start();
+			include_once(INST_PATH."app/templates/".$view);
+			$this->content = ob_get_clean();
+		endif;
+
+
+		if(isset($this->render['layout']) and $this->render['layout'] !== false):
+			$this->layout = $this->render['layout'];
+		endif;
+
+		if(isset($this->render['layout']) and $this->render['layout'] === false):
+			$this->layout = '';
+		endif;
+
+		if(strlen($this->layout)>0):
+			ob_start();
+			include_once(INST_PATH."app/templates/".$this->layout.".phtml");
+			$buffer = ob_get_clean();
+			echo $buffer;
+		else:
+			echo $this->content;
+		endif;
+	}
+
+	public function LoadHelper($helper=NULL){
+		if(isset($helper) and is_array($helper)):
+			foreach($helper as $file){
+				require_once(INST_PATH."app/helpers/".$file."_Helper.php");
+			}
+		elseif(isset($helper) and is_string($helper)):
+			 require_once(INST_PATH."app/helpers/".$helper."_Helper.php");
+		endif;
+	}
+	public function params($params = NULL){
+		$this->params = $params;
+	}
+	public function respondToAJAX($val = null){
+		if($val === null):
+			return $this->_respondToAJAX;
+		else:
+			$this->_respondToAJAX = $val;
+			$this->_canrespondtoajax = true;
+		endif;
+	}
+	public function canRespondToAJAX(){
+		return $this->_canrespondtoajax;
+	}
+}
+
+?>

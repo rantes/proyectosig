@@ -1,0 +1,592 @@
+<style>
+header .button-header{
+	float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.button-header a{
+	color: #666666;
+    display: inline-block;
+    height: 17px;
+    line-height: 17px;
+    margin: 5px;
+    padding-left: 25px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+</style>
+	<h4 class="alert_info"></h4>
+	<article class="module width_full">
+		<header><h3 class="tabs_involved"><?=$this->title;?></h3>
+		<ul class="tabs">
+   			<li><a href="#tab1">Redes Sociales</a></li>
+   			<li><a href="#tab10">Fan pages</a></li>
+    		<li><a href="#tab2">Estados</a></li>
+    		<li><a href="#tab3">Paises</a></li>
+    		<li><a href="#tab4">Clientes</a></li>
+    		<li><a href="#tab5">Clasificaciones</a></li>
+    		<li><a href="#tab6">Perfiles</a></li>
+    		<li><a href="#tab7">Lugares</a></li>
+    		<li><a href="#tab8">Campa&ntilde;as</a></li>
+    		<li><a href="#tab9">Tipos de mensajes</a></li>
+		</ul>
+		</header>
+
+		<div class="tab_container" style="margin-bottom:20px;">
+			<div id="tab1" class="tab_content">
+				<div class="button-header"><a href="#" style="background: url('/manager/images/icn_settings.png') no-repeat scroll left center transparent;" id="add-social-button">Agregar red</a></div>
+				<div id="form-stat" style="clear:both;position:relative;">
+					<form name="network" method="post" action="" id="form-for-SocialNetwork">
+						<?=$this->network->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div style="float:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">Nombre:</div>
+							<div style="float:left;"><?=$this->network->input_for(array('field'=>'name'));?></div>
+						</div>
+						<div style="float:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">Red Social:</div>
+							<div style="float:left;"><?=$this->place->input_for(array('field'=>'kind','type'=>'select','first'=>'Seleccione...','list'=>array('Facebook'=>'Facebook','Twitter'=>'Twitter')));?></div>
+						</div>
+						<div style="float:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">Public key:</div>
+							<div style="float:left;"><?=$this->network->input_for(array('field'=>'public_key'));?></div>
+						</div>
+						<div style="float:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">Private key:</div>
+							<div style="float:left;"><?=$this->network->input_for(array('field'=>'private_key'));?></div>
+						</div>
+						<div style="float:left;clear:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">App url:</div>
+							<div style="float:left;"><?=$this->network->input_for(array('field'=>'app_url'));?></div>
+						</div>
+						<div style="float:left;">
+							<div style="float:left;margin:0px 5px;width:63px;">Logo:</div>
+							<div style="float:left;"><?=$this->network->input_for(array('field'=>'logo'));?></div>
+						</div>
+						<div style="float:left;">
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>
+					</form>
+				</div>
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter">
+					<thead>
+						<tr>
+		   					<th></th>
+		    				<th>Nombre</th>
+		    				<th>Public key</th>
+		    				<th>Private key</th>
+		    				<th>App Url</th>
+		    				<th>Logo</th>
+		    				<th>Acciones</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->networks as $network): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$network->name;?></td>
+		    				<td><?=$network->public_key;?></td>
+		    				<td><?=$network->private_key;?></td>
+		    				<td><?=$network->app_url;?></td>
+		    				<td><img src="<?=$network->logo;?>" /></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit" class="edit" rel="SocialNetwork" id="edit-SocialNetwork-<?=$network->id;?>" />
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash">
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div><!-- end of #tab1 -->
+
+			<div id="tab2" class="tab_content">
+				<div class="button-header"><a href="#" style="background: url('/manager/images/icn_settings.png') no-repeat scroll left center transparent;" id="add-stat-button">Agregar estado</a></div>
+				<div id="form-stat" style="clear:both;position:relative;">
+					<form name="stat" method="post" action="" id="form-for-Stat">
+						<?=$this->stat->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;margin:0px 5px;">Nombre:</div>
+							<div style="float:left;"><?=$this->stat->input_for(array('field'=>'stat'));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>
+					</form>
+				</div>
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter" id="stats-table">
+					<thead>
+						<tr>
+							<th></th>
+		    				<th>Tipo de estado</th>
+		    				<th>Default?</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->stats as $stat): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$stat->stat;?></td>
+		    				<td><?=($stat->default==1?'Si':'no');?></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit" class="edit" rel="Stat" id="edit-Stat-<?=$stat->id;?>" />
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash" class="delete" rel="Stat" id="delete-Stat-<?=$stat->id;?>" />
+		    					<? if($stat->default==0): ?><a href="#" id="default-stat-<?=$stat->id;?>" class="set-as-default">Set as default</a><? endif; ?>
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div><!-- end of #tab2 -->
+			<div id="tab3" class="tab_content">
+				<div id="form-country" style="clear:both;position:relative;">
+					<form name="country" method="post" action="" id="form-for-Country">
+						<?=$this->country->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;margin:0px 5px;">Nombre:</div>
+							<div style="float:left;"><?=$this->country->input_for(array('field'=>'name'));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>
+					</form>
+				</div>
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter" id="countries-table">
+					<thead>
+						<tr>
+							<th></th>
+		    				<th>Nombre</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->countries as $country): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$country->name;?></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit" class="edit" rel="Country" id="edit-Country-<?=$country->id;?>" />
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash" class="delete" rel="Country" id="delete-Country-<?=$country->id;?>" />
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="tab4" class="tab_content">
+				<div class="button-header"><a href="#" style="background: url('/manager/images/icn_settings.png') no-repeat scroll left center transparent;" id="add-client-button">Agregar Cliente</a></div>
+				<div id="form-client" style="clear:both;position:relative;">
+					<form name="client" method="post" action="" id="form-for-Client">
+						<?=$this->client->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;margin:0px 5px;">Nombre:</div>
+							<div style="float:left;"><?=$this->client->input_for(array('field'=>'name'));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>
+					</form>
+				</div>
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter" id="clients-table">
+					<thead>
+						<tr>
+							<th></th>
+		    				<th>Nombre</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->clients as $client): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$client->name;?></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit" class="edit" rel="Client" id="edit-Client-<?=$client->id;?>" />
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash" class="delete" rel="Client" id="delete-Client-<?=$client->id;?>" />
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="tab5" class="tab_content">
+				<div class="button-header"><a href="#" style="background: url('/manager/images/icn_settings.png') no-repeat scroll left center transparent;" id="add-clasification-button">Agregar Clasificaci&oacute;n</a></div>
+				<div id="form-clasification" style="clear:both;position:relative;">
+					<form name="clasification" method="post" action="" id="form-for-Clasification">
+						<?=$this->clasification->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;margin:0px 5px;">Nombre:</div>
+							<div style="float:left;"><?=$this->clasification->input_for(array('field'=>'name'));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>
+					</form>
+				</div>
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter" id="clasifications-table">
+					<thead>
+						<tr>
+							<th></th>
+		    				<th>Nombre</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->clasifications as $clasification): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$clasification->name;?></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit" class="edit" rel="Clasification" id="edit-Clasification-<?=$clasification->id;?>" />
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash" class="delete" rel="Clasification" id="delete-Clasification-<?=$clasification->id;?>" />
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="tab6" class="tab_content">
+				<div class="button-header"><a href="#" style="background: url('/manager/images/icn_settings.png') no-repeat scroll left center transparent;" id="add-profile-button">Agregar Perfil</a></div>
+				<div id="form-profile" style="clear:both;position:relative;">
+					<form name="profile" method="post" action="" id="form-for-Profile">
+						<?=$this->profile->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;"><?=$this->profile->input_for(array('field'=>'name', 'html'=>array('placeholder'=>'Nuevo Perfil')));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>
+					</form>
+				</div>
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter" id="profiles-table">
+					<thead>
+						<tr>
+							<th></th>
+		    				<th>Perfil</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->profiles as $profile): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$profile->name;?></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit" class="edit" rel="Profile" id="edit-Profile-<?=$profile->id;?>" />
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash" class="delete" rel="Profile" id="delete-Profile-<?=$profile->id;?>" />
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="tab7" class="tab_content">
+				<div id="form-place" style="clear:both;position:relative;">
+					<form name="place" method="post" action="" id="form-for-Place">
+						<?=$this->place->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;"><?=$this->place->input_for(array('field'=>'name', 'html'=>array('placeholder'=>'Nuevo lugar')));?></div>
+						</div>
+						<div>
+							<div style="float:left;margin:0px 5px;">Cliente:</div>
+							<div style="float:left;"><?=$this->place->input_for(array('field'=>'client_id','type'=>'select','first'=>'Seleccione...','list'=>$this->clients->toOptions()));?></div>
+						</div>
+						<div>
+							<div style="float:left;margin:0px 5px;">Pa&iacute;s:</div>
+							<div style="float:left;"><?=$this->place->input_for(array('field'=>'country_id','type'=>'select','first'=>'Seleccione...','list'=>$this->countries->toOptions()));?></div>
+						</div>
+						<div>
+							<div style="float:left;"><?=$this->place->input_for(array('field'=>'phone', 'html'=>array('placeholder'=>'Tel&eacute;fono')));?></div>
+						</div>
+						<div>
+							<div style="float:left;"><?=$this->place->input_for(array('field'=>'address', 'html'=>array('placeholder'=>'Direcci&oacute;n')));?></div>
+						</div>
+						<div>
+							<div style="float:left;"><?=$this->place->input_for(array('field'=>'email', 'html'=>array('placeholder'=>'Email')));?></div>
+						</div>
+						<div>
+							<div style="float:left;"><?=$this->place->input_for(array('field'=>'schedule', 'html'=>array('placeholder'=>'Horarios')));?></div>
+						</div>
+						<div>
+							<div style="float:left;"><?=$this->place->input_for(array('field'=>'manager', 'html'=>array('placeholder'=>'Encargados')));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>
+					</form>
+				</div>
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter" id="places-table">
+					<thead>
+						<tr>
+							<th></th>
+		    				<th>Lugar</th>
+		    				<th>Cliente</th>
+		    				<th>Pa&iacute;s</th>
+		    				<th>Tel&eacute;fono</th>
+		    				<th>Email</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->places as $place): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$place->name;?></td>
+		    				<td><?=$place->client()->name;?></td>
+		    				<td><?=$place->country()->name;?></td>
+		    				<td><?=$place->phone;?></td>
+		    				<td><?=$place->email;?></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit" class="edit" rel="Place" id="edit-Place-<?=$place->id;?>" />
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash" class="delete" rel="Place" id="delete-Place-<?=$place->id;?>" />
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="tab8" class="tab_content">
+				<div id="form-campaign" style="clear:both;position:relative;">
+					<form name="campaign" method="post" action="" id="form-for-Campaign">
+						<?=$this->campaign->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;margin:0px 5px;">Nombre:</div>
+							<div style="float:left;"><?=$this->campaign->input_for(array('field'=>'name'));?></div>
+						</div>
+						<div>
+							<div style="float:left;margin:0px 5px;">Cliente:</div>
+							<div style="float:left;"><?=$this->campaign->input_for(array('field'=>'client_id','type'=>'select','first'=>'Seleccione...','list'=>$this->clients->toOptions()));?></div>
+						</div>
+						<div>
+							<div style="float:left;margin:0px 5px;">Pa&iacute;s:</div>
+							<div style="float:left;"><?=$this->campaign->input_for(array('field'=>'country_id','type'=>'select','first'=>'Seleccione...','list'=>$this->countries->toOptions()));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>
+					</form>
+				</div>
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter" id="campaigns-table">
+					<thead>
+						<tr>
+							<th></th>
+		    				<th>Nombre</th>
+		    				<th>Cliente</th>
+		    				<th>Pa&iacute;s</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->campaigns as $campaign): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$campaign->name;?></td>
+		    				<td><?=$campaign->client()->name;?></td>
+		    				<td><?=$campaign->country()->name;?></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit" class="edit" rel="Campaign" id="edit-Campaign-<?=$campaign->id;?>" />
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash" class="delete" rel="Campaign" id="delete-Campaign-<?=$campaign->id;?>" />
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="tab9" class="tab_content">
+				<div id="form-message-kind" style="clear:both;position:relative;">
+					<form name="message_kind" method="post" action="" id="form-for-MessageKind">
+						<?=$this->message_kind->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;margin:0px 5px;">Nombre:</div>
+							<div style="float:left;"><?=$this->message_kind->input_for(array('field'=>'name'));?></div>
+						</div>
+						<div>
+							<div style="float:left;margin:0px 5px;">Cliente:</div>
+							<div style="float:left;"><?=$this->message_kind->input_for(array('field'=>'client_id','type'=>'select','first'=>'Seleccione...','list'=>$this->clients->toOptions()));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>
+					</form>
+				</div>
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter" id="messages-kind-table">
+					<thead>
+						<tr>
+							<th></th>
+		    				<th>Nombre</th>
+		    				<th>Cliente</th>
+		    				<th>Se agrega mas?</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->message_kinds as $message_kind): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$message_kind->name;?></td>
+		    				<td><?=$message_kind->client()->name;?></td>
+		    				<td><?=($message_kind->has_more==1?'Si':'no');?></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit" class="edit" rel="MessageKind" id="edit-MessageKind-<?=$message_kind->id;?>" />
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash" class="delete" rel="MessageKind" id="delete-MessageKind-<?=$message_kind->id;?>" />
+		    					<a href="#" id="has-more-<?=$message_kind->id;?>" class="toggle-has-more"><?=($message_kind->has_more==0?'Agregar mas':'No agregar mas');?></a>
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="tab10" class="tab_content">
+				<div id="form-page" style="clear:both;position:relative;">
+					<form name="fanpage" method="post" action="" id="form-for-Fanpage">
+						<?=$this->fanpage->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;margin:0px 5px;">Nombre:</div>
+							<div style="float:left;"><?=$this->fanpage->input_for(array('field'=>'name'));?></div>
+						</div>
+						<div>
+							<div style="float:left;margin:0px 5px;">Cliente:</div>
+							<div style="float:left;"><?=$this->fanpage->input_for(array('field'=>'client_id','type'=>'select','first'=>'Seleccione...','list'=>$this->clients->toOptions()));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>
+					</form>
+				</div>
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter" id="messages-kind-table">
+					<thead>
+						<tr>
+							<th></th>
+		    				<th>Nombre</th>
+		    				<th>Cliente</th>
+		    				<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->fanpages as $fanpage): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$fanpage->name;?></td>
+		    				<td><?=$fanpage->client()->name;?></td>
+		    				<td>
+		    					<input type="image" src="/manager/images/icn_edit.png" title="Edit" class="edit" rel="Fanpage" id="edit-Fanpage-<?=$fanpage->id;?>" />
+		    					<input type="image" src="/manager/images/icn_trash.png" title="Trash" class="delete" rel="Fanpage" id="delete-Fanpage-<?=$fanpage->id;?>" />
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+		</div><!-- end of .tab_container -->
+
+		</article><!-- end of content manager article -->
+<script>
+jQuery(document).ready(function($){
+	$('.edit').click(function(){
+		var section = $(this).attr('rel');
+		var id = $(this).attr('id').replace('edit-'+section+'-','');
+
+		$.post('<?=INST_URI;?>admin/getParamEdit/',{'param':section,'id':id},function(data){
+			$('#form-for-'+section).html(data).fadeIn();
+		});
+		return false;
+	});
+	$('.delete').click(function(){
+		var section = $(this).attr('rel');
+		var id = $(this).attr('id').replace('delete-'+section+'-','');
+
+		$.post('<?=INST_URI;?>admin/deleteParam/',{'param':section,'id':id},function(data){
+			location.reload();
+		});
+		return false;
+	});
+	function getTr(){
+		var $tr = $('<tr>');
+		var $firstTd = $('<td>').append($('<input />').attr('type','checkbox'));
+		$tr.append($firstTd);
+		return $tr;
+	}
+	function getLastTd(){
+		var $editButton = $('<input />');
+		$editButton.attr('type','image');
+		$editButton.attr('src','/images/icn_edit.png');
+		$editButton.attr('title','Edit');
+
+		var $deleteButton = $('<input />');
+		$deleteButton.attr('type','image');
+		$deleteButton.attr('src','/images/icn_trash.png');
+		$deleteButton.attr('title','Trash');
+
+		var $lastTd = $('<td>').append($editButton);
+		$lastTd.append($deleteButton);
+
+		return $lastTd;
+	}
+	function paginationRow(content,colspan){
+		var $tr = $('<tr>');
+		var $td = $('<td>').attr('colspan',colspan);
+		$tr.append($td.append(content));
+		return $tr;
+	}
+	$('#paginate-categories .category-pages').live('click',function(){
+		var url = $(this).attr('href');
+		$.get(url,function(data){
+			var resp = eval('(' + data + ')');
+			var $tbody = $('<tbody>');
+			if(resp.data.length > 0){
+				$('#categories-table tbody').fadeOut('slow').detach('');
+				for(i=0; i<resp.data.length; i++){
+					var $tr = getTr();
+					$tr.append($('<td>').html(resp.data[i].id));
+					$tr.append($('<td>').html(resp.data[i].name));
+					$tr.append($('<td>').html(resp.data[i].sanitized));
+					$tr.append($('<td>').html(resp.data[i].description));
+					$tr.append($('<td>').html(resp.data[i].category_id));
+					$tr.append($('<td>').append($('<img />').attr('src','/images/'+resp.data[i].image)));
+					$tr.append(getLastTd());
+					$tbody.append($tr);
+				}
+			}
+			var $div = $('<div>').attr('id',"paginate-categories");
+			var $lastTr = paginationRow($div.html(resp.pagination),8);
+			$tbody.append($lastTr);
+
+			$('#categories-table').append($tbody).fadeIn('slow');
+		});
+		return false;
+	});
+	$('.set-as-default').click(function(){
+		var id=$(this).attr('id').replace('default-stat-','');
+		$.post('<?=INST_URI;?>admin/setDefaultStat',{'id':id},function(){
+			location.reload();
+		});
+		return false;
+	});
+	$('.toggle-has-more').click(function(){
+		var id=$(this).attr('id').replace('has-more-','');
+		$.post('<?=INST_URI;?>admin/toggleHasMore',{'id':id},function(){
+			location.reload();
+		});
+		return false;
+	});
+});
+</script>

@@ -1,0 +1,30 @@
+						<?=$this->data->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'name', 'html'=>array('placeholder'=>'Nuevo lugar')));?></div>
+						</div>
+						<div>
+							<div style="float:left;margin:0px 5px;">Cliente:</div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'client_id','type'=>'select','first'=>'Seleccione...','list'=>$this->clients->toOptions()));?></div>
+						</div>
+						<div>
+							<div style="float:left;margin:0px 5px;">Pa&iacute;s:</div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'country_id','type'=>'select','first'=>'Seleccione...','list'=>$this->countries->toOptions()));?></div>
+						</div>
+						<div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'phone', 'html'=>array('placeholder'=>'Tel&eacute;fono')));?></div>
+						</div>
+						<div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'address', 'html'=>array('placeholder'=>'Direcci&oacute;n')));?></div>
+						</div>
+						<div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'email', 'html'=>array('placeholder'=>'Email')));?></div>
+						</div>
+						<div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'schedule', 'html'=>array('placeholder'=>'Horarios')));?></div>
+						</div>
+						<div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'manager', 'html'=>array('placeholder'=>'Encargados')));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>

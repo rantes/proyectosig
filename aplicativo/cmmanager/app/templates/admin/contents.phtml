@@ -1,0 +1,204 @@
+<style>
+header .button-header{
+	float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.button-header a{
+	color: #666666;
+    display: inline-block;
+    height: 17px;
+    line-height: 17px;
+    margin: 5px;
+    padding-left: 25px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+</style>
+	<h4 class="alert_info"></h4>
+	<article class="module width_full">
+		<header><h3 class="tabs_involved"><?=$this->title;?></h3>
+		<ul class="tabs">
+   			<li><a href="#tab1">Feeds</a></li>
+    		<li><a href="#tab2">Comentarios</a></li>
+    		<li><a href="#tab3">Mensajes</a></li>
+		</ul>
+		</header>
+
+		<div class="tab_container" style="margin-bottom:20px;">
+			<div id="tab1" class="tab_content">
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter">
+					<thead>
+						<tr>
+		   					<th></th>
+		   					<th>Id</th>
+		    				<th>Fan page</th>
+		    				<th>Contenido</th>
+		    				<th>Estado</th>
+		    				<th>Clasificaci&oacute;n</th>
+		    				<th>&iquest;Qui&eacute;n lo escribi&oacute;?</th>
+		    				<th>Acciones</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->feeds as $feed): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		   					<td><?=$feed->id;?></td>
+		    				<td><?=$feed->page_name;?></td>
+		    				<td><?=$feed->content;?></td>
+		    				<td><?=$feed->stat()->stat;?></td>
+		    				<td><?=$feed->clasification()->name;?></td>
+		    				<td><?=$feed->from_name;?></td>
+		    				<td>
+		    					<input type="image" src="/images/icn_edit.png" title="Edit" class="edit-content" id="edit-content-<?=$feed->id;?>">
+		    					<input type="image" src="/images/icn_trash.png" title="Trash" class="delete-content" id="delete-content-<?=$feed->id;?>">
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="tab2" class="tab_content">
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter">
+					<thead>
+						<tr>
+		   					<th></th>
+		    				<th>Fan page</th>
+		    				<th>Contenido</th>
+		    				<th>Estado</th>
+		    				<th>Clasificaci&oacute;n</th>
+		    				<th>&iquest;Qui&eacute;n lo escribi&oacute;?</th>
+		    				<th>Acciones</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->replys as $feed): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$feed->page_name;?></td>
+		    				<td><?=$feed->content;?></td>
+		    				<td><?=$feed->stat()->stat;?></td>
+		    				<td><?=$feed->clasification()->name;?></td>
+		    				<td><?=$feed->from_name;?></td>
+		    				<td>
+		    					<input type="image" src="/images/icn_edit.png" title="Edit" class="edit-content" id="edit-content-<?=$feed->id;?>">
+		    					<input type="image" src="/images/icn_trash.png" title="Trash" class="delete-content" id="delete-content-<?=$feed->id;?>">
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="tab3" class="tab_content">
+				<div style="clear:both;margin-bottom:20px;">
+					<table class="tablesorter">
+					<thead>
+						<tr>
+		   					<th></th>
+		    				<th>Fan page</th>
+		    				<th>Contenido</th>
+		    				<th>Estado</th>
+		    				<th>Clasificaci&oacute;n</th>
+		    				<th>&iquest;Qui&eacute;n lo escribi&oacute;?</th>
+		    				<th>Acciones</th>
+						</tr>
+					</thead>
+					<tbody>
+						<? foreach($this->messages as $feed): ?>
+						<tr>
+		   					<td><input type="checkbox" /></td>
+		    				<td><?=$feed->page_name;?></td>
+		    				<td><?=$feed->content;?></td>
+		    				<td><?=$feed->stat()->stat;?></td>
+		    				<td><?=$feed->clasification()->name;?></td>
+		    				<td><?=$feed->from_name;?></td>
+		    				<td>
+		    					<input type="image" src="/images/icn_edit.png" title="Edit" class="edit-content" id="edit-content-<?=$feed->id;?>">
+		    					<input type="image" src="/images/icn_trash.png" title="Trash" class="delete-content" id="delete-content-<?=$feed->id;?>">
+		    				</td>
+						</tr>
+						<? endforeach; ?>
+					</tbody>
+					</table>
+				</div>
+			</div>
+		</div><!-- end of .tab_container -->
+
+		</article><!-- end of content manager article -->
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	function getTr(){
+		var $tr = $('<tr>');
+		var $firstTd = $('<td>').append($('<input />').attr('type','checkbox'));
+		$tr.append($firstTd);
+		return $tr;
+	}
+	function getLastTd(){
+		var $editButton = $('<input />');
+		$editButton.attr('type','image');
+		$editButton.attr('src','/images/icn_edit.png');
+		$editButton.attr('title','Edit');
+
+		var $deleteButton = $('<input />');
+		$deleteButton.attr('type','image');
+		$deleteButton.attr('src','/images/icn_trash.png');
+		$deleteButton.attr('title','Trash');
+
+		var $lastTd = $('<td>').append($editButton);
+		$lastTd.append($deleteButton);
+
+		return $lastTd;
+	}
+	function paginationRow(content,colspan){
+		var $tr = $('<tr>');
+		var $td = $('<td>').attr('colspan',colspan);
+		$tr.append($td.append(content));
+		return $tr;
+	}
+	$('#paginate-categories .category-pages').live('click',function(){
+		var url = $(this).attr('href');
+		$.get(url,function(data){
+			var resp = eval('(' + data + ')');
+			var $tbody = $('<tbody>');
+			if(resp.data.length > 0){
+				$('#categories-table tbody').fadeOut('slow').detach('');
+				for(i=0; i<resp.data.length; i++){
+					var $tr = getTr();
+					$tr.append($('<td>').html(resp.data[i].id));
+					$tr.append($('<td>').html(resp.data[i].name));
+					$tr.append($('<td>').html(resp.data[i].sanitized));
+					$tr.append($('<td>').html(resp.data[i].description));
+					$tr.append($('<td>').html(resp.data[i].category_id));
+					$tr.append($('<td>').append($('<img />').attr('src','/images/'+resp.data[i].image)));
+					$tr.append(getLastTd());
+					$tbody.append($tr);
+				}
+			}
+			var $div = $('<div>').attr('id',"paginate-categories");
+			var $lastTr = paginationRow($div.html(resp.pagination),8);
+			$tbody.append($lastTr);
+
+			$('#categories-table').append($tbody).fadeIn('slow');
+		});
+		return false;
+	});
+	$('.set-as-default').click(function(){
+		var id=$(this).attr('id').replace('default-stat-','');
+		$.post('<?=INST_URI;?>admin/setDefaultStat',{'id':id},function(){
+			location.reload();
+		});
+		return false;
+	});
+	$(".edit-content").click(function(){
+		var id = $(this).attr('id').replace('edit-content-','');
+		var vars = {'url':'<?=INST_URI;?>admin/vieweditfeed/','params':{'id':id}};
+		loadForm(vars);
+		return false;
+	});
+});
+</script>

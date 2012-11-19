@@ -1,0 +1,12 @@
+						<?=$this->data->input_for(array('field'=>'id','type'=>'hidden'));?>
+						<div>
+							<div style="float:left;margin:0px 5px;">Nombre:</div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'name'));?></div>
+						</div>
+						<div>
+							<div style="float:left;margin:0px 5px;">Cliente:</div>
+							<div style="float:left;"><?=$this->data->input_for(array('field'=>'client_id','type'=>'select','first'=>'Seleccione...','list'=>$this->clients->toOptions()));?></div>
+						</div>
+						<div>
+							<input type="submit" style="float:left;margin:0px 5px;" value="Guardar" />
+						</div>

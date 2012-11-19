@@ -1,0 +1,124 @@
+
+		<article class="module width_full" style="float:left;clear:both;">
+			<header><h3>Mensajes de Facebook</h3></header>
+				<div class="spacer"></div>
+				<div style="float:left;text-align:center;width:100%;">
+					<? if(!empty($this->feeds->paging->previous)):?>
+						<a href="#" rel="<?=$this->feeds->paging->previous;?>" id="previous-feeds-top" class="feeds-paginate" style="margin:0px;10px;">Previous</a>
+					<? endif; ?>
+					<? if(!empty($this->feeds->paging->next)):?>
+						<a href="#" rel="<?=$this->feeds->paging->next;?>" id="next-feeds-top" class="feeds-paginate" style="margin:0px;10px;">Next</a>
+					<? endif; ?>
+				</div>
+				<div style="float:left;clear:both;margin:10px;">Cantidad de mensajes: <?=sizeof($this->feeds->data);?></div>
+				<? if(!empty($this->feeds->data)):?>
+
+					<?
+					$i=1;
+					foreach($this->feeds->data as $mainMessage):
+					?>
+				<div class="inbok_principal_participantes_user" style="float:left;clear:both;border-bottom:solid 1px #000000;margin-bottom:10px;width:100%;">
+					<div style="float:left;clear:both;margin:10px;width:100%;">
+						<div style="float:left;margin:10px;">Mensaje #<?=$i;?></div>
+						<div class="toggle-message" style="float:left;cursor:pointer;" rel="<?=$i;?>">Ver/Ocultar hilo</div>
+					</div>
+					<div style="float:left;clear:both;margin-bottom:10px;width:100%;">
+						<h4>Participantes:</h4>
+					</div>
+						<? foreach ($mainMessage->participants->data as $participant): ?>
+					<div style="float:left;margin-left:10px;clear:none;">
+						<div class="inbok_principal_participantes_user_img" style="float:left;clear:none;">
+							<img src="http://graph.facebook.com/<?=$participant->id;?>/picture" alt="<?=$participant->id;?>"/>
+					  	</div>
+					  	<div class="inbok_principal_participantes_user_text" style="float:left;clear:none;margin-left:10px;">
+							<div class="participant-name"><?=htmlentities($participant->name,ENT_QUOTES,'utf-8');?></div>
+							<div class="participant-email"><?=htmlentities($participant->email,ENT_QUOTES,'utf-8');?></div>
+						</div>
+					</div>
+						<? endforeach; ?>
+
+
+				<div id="hilo-<?=$i;?>" style="float:left;display:none;">
+					<? foreach ($mainMessage->messages->data as $message): ?>
+					<? $message->id = str_replace('.', '_', $message->id);?>
+				<div class="module_content" style="float:left;clear:both;width:95%;border-bottom:1px solid #cfcfcf;margin-bottom:10px;">
+					<form name="fbFeed" id="fbFeed-<?=$message->id;?>">
+					<? if(!empty($message->to->data)):?>
+					<div class="message-to" style="float:left;clear:both;width:100%;">Para:<br />
+						<? foreach ($message->to->data as $to): ?>
+						<?=htmlentities($to->name,ENT_QUOTES,'utf-8');?>&nbsp;&nbsp;
+						<? endforeach; ?>
+					</div>
+					<? endif;?>
+					<div style="float:left;clear:both;width:100%;margin-top:10px;">
+						<div style="float:left;clear:both;width:100%;">
+							<? if(!isSavedFeed($message->id)): ?>
+							<div style="float:left;clear:both;width:100%;" class="save-clasification-links" id="save-clasification-links-<?=$message->id;?>">
+								<span>Guardar como: </span>
+								<? foreach($this->clasifications as $clasification): ?>
+								<a href="#" style="margin:0px 5px;" class="save-as-clasification" id="link-to-save-<?=$clasification->id;?>-<?=$message->id;?>" rel="<?=$clasification->id;?>"><?=$clasification->name;?></a>
+								<? endforeach; ?>
+							</div>
+							<? endif; ?>
+							<div style="float:left;">
+								<img src="http://graph.facebook.com/<?=$message->from->id;?>/picture" alt="<?=$message->from->id;?>"/>
+							</div>
+							<div style="float:left;">
+								<h2 style="float:left;"><?=htmlentities($message->from->name,ENT_QUOTES,'utf-8');?></h2>
+							</div>
+
+						</div>
+
+						<div class="message">Mensaje:</div>
+						<div style="float:left;clear:both;">
+							<h4><?=$message->created_time;?></h4>
+						</div>
+
+						<div style="float:left;clear:left;">
+						   <p>Message : <span><?=htmlentities($message->message,ENT_QUOTES,'utf-8');?></span></p>
+						</div>
+					</div>
+
+					<input type="hidden" name="feed[original_id_feed]" value="<?=$message->id;?>" />
+					<input type="hidden" name="feed[date_published]" value="<?=getStamp(cleanDateTime($message->created_time));?>" />
+					<input type="hidden" name="feed[from_id]" value="<?=$message->from->id;?>" />
+					<input type="hidden" name="feed[feed_kind]" value="message" />
+					<input type="hidden" name="feed[from_name]" value="<?=$message->from->name;?>" />
+					<input type="hidden" name="feed[content]" value="<?=htmlentities($message->message,ENT_QUOTES,'utf-8');?>" />
+					<input type="hidden" name="feed[page_name]" value="<?=$this->full_current_page['name'];?>" />
+					<input type="hidden" name="feed[clasification_id]" value="" id="clasification-hidden-<?=$message->id;?>" />
+					<input type="hidden" name="feed[stat_id]" value="<?=$this->defaulStat;?>" />
+					<input type="hidden" name="feed[social_network_id]" value="<?=$this->social_network;?>" />
+					<input type="hidden" name="feed[client_id]" value="<?=$this->clientId;?>" />
+					<input type="hidden" name="feed[fanpage_id]" value="<?=$this->fanpageId;?>" />
+					<input type="hidden" name="feed[page_name]" value="<?=$this->full_current_page['name'];?>" />
+					<input type="hidden" name="feed[observations]" value="" />
+
+				</form>
+				<div class="spacer"></div>
+
+				</div>
+					<? endforeach; ?>
+			</div>
+		</div>
+				<? $i++; ?>
+				<? endforeach; ?>
+			<? endif; ?>
+		</article><!-- end of styles article -->
+		<div style="flaot:left;text-align:center;width:100%;">
+			<? if(!empty($this->feeds->paging->previous)):?>
+				<a href="#" rel="<?=$this->feeds->paging->previous;?>" id="previous-feeds-bottom" class="feeds-paginate" style="margin:0px;10px;">Previous</a>
+			<? endif; ?>
+			<? if(!empty($this->feeds->paging->next)):?>
+				<a href="#" rel="<?=$this->feeds->paging->next;?>" id="next-feeds-bottom" class="feeds-paginate" style="margin:0px;10px;">Next</a>
+			<? endif; ?>
+		</div>
+		<div class="spacer"></div>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('.toggle-message').click(function(){
+		var target = $(this).attr('rel');
+		$('#hilo-'+target).toggle();
+	});
+});
+</script>

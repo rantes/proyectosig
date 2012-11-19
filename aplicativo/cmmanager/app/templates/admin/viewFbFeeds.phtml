@@ -1,0 +1,157 @@
+		<article class="module width_full" style="float:left;clear:both;">
+			<header><h3>Feeds de Facebook</h3></header>
+				<div class="spacer"></div>
+				<div style="float:left;text-align:center;width:100%;">
+					<? if(!empty($this->feeds->paging->previous)):?>
+						<a href="#" rel="<?=$this->feeds->paging->previous;?>" id="previous-feeds-top" class="feeds-paginate" style="margin:0px;10px;">Previous</a>
+					<? endif; ?>
+					<? if(!empty($this->feeds->paging->next)):?>
+						<a href="#" rel="<?=$this->feeds->paging->next;?>" id="next-feeds-top" class="feeds-paginate" style="margin:0px;10px;">Next</a>
+					<? endif; ?>
+				</div>
+				<? if(!empty($this->feeds->data)):?>
+				<? foreach($this->feeds->data as $feed): ?>
+
+				<div class="module_content" style="float:left;clear:both;width:95%;border-bottom:1px solid #cfcfcf;margin-bottom:10px;">
+				<form name="fbFeed" id="fbFeed-<?=$feed->id;?>">
+					<div style="float:left;clear:none;width:70%">
+						<div style="float:left;clear:both;">
+							<img alt="<?=$feed->from->name;?>" src="http://graph.facebook.com/<?=$feed->from->id;?>/picture" style="width:50px;float:left;" alt="<?=$feed->from->id;?>" />
+							<h2 style="float:left;"><?=htmlentities($feed->from->name,ENT_QUOTES,'utf-8');?></h2>
+							<? if(!isSavedFeed($feed->id)): ?>
+							<div style="float:left;" class="save-clasification-links" id="save-clasification-links-<?=$feed->id;?>">
+								<span>Guardar como: </span>
+								<? foreach($this->clasifications as $clasification): ?>
+								<a href="#" style="margin:0px 5px;" class="save-as-clasification" id="link-to-save-<?=$clasification->id;?>-<?=$feed->id;?>" rel="<?=$clasification->id;?>"><?=$clasification->name;?></a>
+								<? endforeach; ?>
+							</div>
+							<? endif; ?>
+						</div>
+						<div style="float:left;clear:both;">
+							<h4><?=$feed->created_time;?></h4>
+						</div>
+						<?
+						$message = '';
+						if(!empty($feed->message)) $message = $feed->message;
+						if(!empty($feed->story)) $message = $feed->story;
+						?>
+						<div style="float:left;clear:left;">
+						   <p>Message : <span><?=htmlentities($message,ENT_QUOTES,'utf-8');?></span></p>
+						</div>
+					</div>
+					<div style="float:right;clear:right;width:30%;text-align:center;">
+				   	   <p>Adjunto:</p>
+					<? switch($feed->type):
+
+						case 'video':
+							$video = str_replace('&autoplay=1','&autoplay=0',$feed->source);
+					?>
+						   	<div class="post_ini_textos_archivos_base" style="margin:auto;">
+						   	   <iframe width="255" height="150" src="<?=$video;?>" style="border:0px;" allowfullscreen></iframe>
+						   	</div>
+					<?
+						break;
+
+						case 'photo':?>
+						   	<div class="post_ini_textos_archivos_base" style="margin:auto;">
+						   	   <img src="<?=$feed->picture;?>" />
+						   	</div>
+					<?
+						break;
+					endswitch;?>
+					</div>
+					<input type="hidden" name="feed[original_id_feed]" value="<?=$feed->id;?>" />
+					<input type="hidden" name="feed[stat_id]" value="<?=$this->defaulStat;?>" />
+					<input type="hidden" name="feed[date_published]" value="<?=getStamp(cleanDateTime($feed->created_time));?>" />
+					<input type="hidden" name="feed[from_id]" value="<?=$feed->from->id;?>" />
+					<input type="hidden" name="feed[feed_kind]" value="feed" />
+					<input type="hidden" name="feed[social_network_id]" value="<?=$this->social_network;?>" />
+					<input type="hidden" name="feed[client_id]" value="<?=$this->clientId;?>" />
+					<input type="hidden" name="feed[fanpage_id]" value="<?=$this->fanpageId;?>" />
+					<input type="hidden" name="feed[from_name]" value="<?=$feed->from->name;?>" />
+					<input type="hidden" name="feed[content]" value="<?=$message;?>" />
+					<input type="hidden" name="feed[page_name]" value="<?=$this->full_current_page['name'];?>" />
+					<input type="hidden" name="feed[clasification_id]" value="" id="clasification-hidden-<?=$feed->id;?>" />
+				</form>
+				<div class="spacer"></div>
+
+				<div class="comments-section" style="float:left;clear:both;">
+					<?
+					if($feed->comments->count > 0):
+						$comments = getfbpostcomments($feed->id);
+						foreach($comments->data as $comment):
+					?>
+
+					<div class="back_coment" style="float:left;clear:both;border-top:solid 1px #cfcfcf;">
+					<form name="fbFeed" id="fbFeed-<?=$comment->id;?>">
+						<? if(!isSavedFeed($comment->id)): ?>
+						<div style="float:left;" class="save-clasification-links" id="save-clasification-links-<?=$comment->id;?>">
+							<span>Guardar como: </span>
+							<? foreach($this->clasifications as $clasification): ?>
+							<a href="#" style="margin:0px 5px;" class="save-as-clasification" id="link-to-save-<?=$clasification->id;?>-<?=$comment->id;?>" rel="<?=$clasification->id;?>"><?=$clasification->name;?></a>
+							<? endforeach; ?>
+						</div>
+						<? endif; ?>
+						<? if($comment->from == null):
+							$comment->from->id = 0;
+							$comment->from->name = 'Unknown';
+						else:
+						?>
+						<div class="comment_ini_pic">
+						   <img class="cuadro_foto" height="50px" width="50px" src="http://graph.facebook.com/<?=$comment->from->id; ?>/picture" alt="<?=$comment->from->id; ?>" />
+						</div>
+						<? endif; ?>
+
+						<div class="ini_textos_comment">
+
+						   <div class="comment_ini_textos_from">
+						      <p>from : <span><?=htmlentities($comment->from->name,ENT_QUOTES,'utf-8');?></span></p>
+						   </div>
+						   <div class="comment_ini_textos_id">
+						      <p>fromId : <span><?=$comment->from->id;?></span></p>
+						   </div>
+						   <div class="comment_ini_textos_date">
+						      <p>created_time : <span><?=$comment->created_time;?></span></p>
+						   </div>
+						</div>
+						<div class="ini_textos_comment_mensaje">
+						   <div class="comment_ini_textos_mensaje">
+						      <p>message : <span><?=htmlentities($comment->message,ENT_QUOTES,'utf-8');?></span></p>
+						   </div>
+						</div>
+						<input type="hidden" name="feed[original_id_feed]" value="<?=$comment->id;?>" />
+						<input type="hidden" name="feed[stat_id]" value="<?=$this->defaulStat;?>" />
+						<input type="hidden" name="feed[original_id_parent]" value="<?=$feed->id;?>" />
+						<input type="hidden" name="feed[feed_kind]" value="reply" />
+						<input type="hidden" name="feed[social_network_id]" value="<?=$this->social_network;?>" />
+						<input type="hidden" name="feed[fanpage_id]" value="<?=$this->fanpageId;?>" />
+						<input type="hidden" name="feed[client_id]" value="<?=$this->clientId;?>" />
+						<input type="hidden" name="feed[date_published]" value="<?=getStamp(cleanDateTime($comment->created_time));?>" />
+						<input type="hidden" name="feed[from_id]" value="<?=$comment->from->id;?>" />
+						<input type="hidden" name="feed[from_name]" value="<?=$comment->from->name;?>" />
+						<input type="hidden" name="feed[content]" value="<?=htmlentities($comment->message,ENT_QUOTES,'utf-8');?>" />
+						<input type="hidden" name="feed[page_name]" value="<?=$this->full_current_page['name'];?>" />
+						<input type="hidden" name="feed[clasification_id]" value="" id="clasification-hidden-<?=$comment->id;?>" />
+					</form>
+					</div>
+					<?
+						endforeach;
+					endif;
+					?>
+				</div>
+				</div>
+
+
+
+				<? endforeach; ?>
+				<? endif; ?>
+		</article><!-- end of styles article -->
+		<div style="flaot:left;text-align:center;width:100%;">
+			<? if(!empty($this->feeds->paging->previous)):?>
+				<a href="#" rel="<?=$this->feeds->paging->previous;?>" id="previous-feeds-bottom" class="feeds-paginate" style="margin:0px;10px;">Previous</a>
+			<? endif; ?>
+			<? if(!empty($this->feeds->paging->next)):?>
+				<a href="#" rel="<?=$this->feeds->paging->next;?>" id="next-feeds-bottom" class="feeds-paginate" style="margin:0px;10px;">Next</a>
+			<? endif; ?>
+		</div>
+		<div class="spacer"></div>
