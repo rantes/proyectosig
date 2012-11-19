@@ -28,14 +28,19 @@
 \contentsline {subsection}{\numberline {4.4.1}Campa\~nas:}{10}
 \contentsline {subsection}{\numberline {4.4.2}Satisfacci\'on al cliente:}{10}
 \contentsline {section}{\numberline {4.5}Marco Referencial}{10}
+\contentsline {subsubsection}{CRM}{10}
 \contentsline {section}{\numberline {4.6}CRM como soluci\'on adecuada}{11}
-\contentsline {chapter}{\numberline {5}Requerimientos}{14}
-\contentsline {section}{\numberline {5.1}Analisis de requerimientos}{14}
-\contentsline {section}{\numberline {5.2}Analisis de requerimientos}{15}
-\contentsline {subsection}{\numberline {5.2.1}Requerimientos generales}{15}
-\contentsline {subsection}{\numberline {5.2.2}Requerimientos b\'asicos}{15}
-\contentsline {section}{\numberline {5.3}Requerimientos funcionales}{16}
-\contentsline {chapter}{\numberline {6}Casos de uso}{17}
-\contentsline {chapter}{\numberline {7}ERP como soluci\'on adecuada}{20}
-\contentsline {chapter}{\numberline {8}Marco Referencial}{21}
-\contentsline {chapter}{\numberline {9}Reportes}{24}
+\contentsline {chapter}{\numberline {5}Requerimientos}{13}
+\contentsline {section}{\numberline {5.1}Analisis de requerimientos}{13}
+\contentsline {section}{\numberline {5.2}Analisis de requerimientos}{14}
+\contentsline {subsection}{\numberline {5.2.1}Requerimientos generales}{14}
+\contentsline {subsubsection}{?`Qu\'e es lo que se hace?}{14}
+\contentsline {subsubsection}{?`C\'omo se hace?}{14}
+\contentsline {subsubsection}{?`Con qu\'e frecuencia se realiza?}{14}
+\contentsline {subsubsection}{?'Cu\'al es el grado de eficiencia con el que se efect\'uan las tareas?}{14}
+\contentsline {subsection}{\numberline {5.2.2}Requerimientos b\'asicos}{14}
+\contentsline {subsubsection}{?'Cu\'al es el proceso b\'asico de la empresa?}{14}
+\contentsline {subsubsection}{?'Qu\'e controles de desempe\~no utiliza?}{15}
+\contentsline {section}{\numberline {5.3}Requerimientos funcionales}{15}
+\contentsline {chapter}{\numberline {6}Casos de uso}{16}
+\contentsline {chapter}{\numberline {7}Reportes}{19}
