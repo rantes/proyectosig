@@ -14,11 +14,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=input.tex
+Document=analisis.tex
 
 [Frame0_View0,0]
-TopLine=41
-Cursor=1758
+TopLine=43
+Cursor=5297
 
 [Frame1]
 Flags=0
@@ -32,11 +32,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=casosdeuso.tex
+Document=input.tex
 
 [Frame1_View0,0]
 TopLine=6
-Cursor=728
+Cursor=625
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=principal.tex
+Document=casosdeuso.tex
 
 [Frame2_View0,0]
-TopLine=0
-Cursor=1033
+TopLine=6
+Cursor=728
 
 [Frame3]
 Flags=0
@@ -68,11 +68,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=planeacion.tex
+Document=principal.tex
 
 [Frame3_View0,0]
 TopLine=0
-Cursor=278
+Cursor=1033
 
 [Frame4]
 Flags=0
@@ -86,11 +86,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=comolasolucion.tex
+Document=planeacion.tex
 
 [Frame4_View0,0]
 TopLine=0
-Cursor=161
+Cursor=278
 
 [Frame5]
 Flags=0
@@ -104,11 +104,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=problema.tex
+Document=comolasolucion.tex
 
 [Frame5_View0,0]
 TopLine=0
-Cursor=0
+Cursor=161
 
 [Frame6]
 Flags=0
@@ -122,11 +122,11 @@ NormalPos.top=32
 NormalPos.right=1395
 NormalPos.bottom=569
 Class=LaTeXView
-Document=analisis.tex
+Document=problema.tex
 
 [Frame6_View0,0]
-TopLine=6
-Cursor=1205
+TopLine=0
+Cursor=0
 
 [Frame7]
 Flags=0
@@ -198,7 +198,7 @@ Document=introduccion.tex
 
 [Frame10_View0,0]
 TopLine=0
-Cursor=759
+Cursor=580
 
 [Frame11]
 Flags=0
